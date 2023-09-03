@@ -2,15 +2,71 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "progR-website",
+    "title": "Programación y análisis estadístico con R",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "Curso online organizado por la Universidad Central del Ecuador, Octubre/Noviembre de 2023"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "Acerca del instructor",
     "section": "",
     "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "index.html#anuncios",
+    "href": "index.html#anuncios",
+    "title": "Programación y análisis estadístico con R",
+    "section": "Anuncios",
+    "text": "Anuncios\n\nLos anuncios aqui"
+  },
+  {
+    "objectID": "index.html#introducción",
+    "href": "index.html#introducción",
+    "title": "Programación y análisis estadístico con R",
+    "section": "Introducción",
+    "text": "Introducción\nEl análisis de datos es una destreza que ha venido ganando más y más importancia en tiempos recientes. Un profesional con habilidades de conducción, interpretación y entrega de análisis estadísticos tiene sin lugar a dudas grandes ventajas a su favor en el campo laboral. De esta manera, ante la devenida de más competencia de personas altamente capacitadas, el aprender lenguajes de programación especializados ofrece la oportunidad de destacar en procesos de selección tanto en la academia cómo en la industria.\nPor estas razones, el objetivo de este curso es brindar al estudiante las herramientas necesarias para realizar de manera independiente análisis estadísticos básicos partiendo desde la limpieza de datos, pasando por la realización de gráficos profesionales listos por publicación, hasta la generación de reportes estadísticos claros y concisos."
+  },
+  {
+    "objectID": "index.html#por-qué-r",
+    "href": "index.html#por-qué-r",
+    "title": "Programación y análisis estadístico con R",
+    "section": "¿Por qué R?",
+    "text": "¿Por qué R?\nAl momento de decidirse a invertir tiempo (y dinero), la pregunta de qué lenguaje de programación escoger para llevar a cabo ciencia de datos suele reducirse entre R y Python. Esta pregunta muy válida, tiene respuestas por supuesto sesgadas por el punto de vista y la experiencia de quien la responda. Y por tanto, mi respuesta sesgada basada en más de 10 años de experiencia mayoritariamente con R es la de recomendar R.\nDesarrollando un poco más la idea, la decisión entre R y Python, depende mucho en los objetivos que tengamos con respecto al análisis de datos que deseamos llevar a cabo. Sin entrar en\nUna de las preguntas más frecuentes al momento de decidirse en invertir tiempo (y dinero a veces) en un lenguaje de programación a veces"
+  },
+  {
+    "objectID": "index.html#objetivos-de-aprendizaje",
+    "href": "index.html#objetivos-de-aprendizaje",
+    "title": "Programación y análisis estadístico con R",
+    "section": "Objetivos de aprendizaje",
+    "text": "Objetivos de aprendizaje\n\nAl término de este curso, el estudiante será capaz de:\n\nRealizar operaciones básicas en R, tales como: cargar, modificar, limpiar y guardar tablas de datos.\nRealizar gráficos de manera profesional utilizando las librerías ggplot2 y patchwork.\nLlevar a cabo análisis exploratorio de datos.\nLlevar a cabo e interpretar los resultados de metodologías estadísticas básicas, tales como: pruebas t, análisis de varianza, análisis de covarianza, regresión lineal, regresión lineal múltiple.\nGenerar reportes estadísticos básicos utilizando la librería rmarkdown y el software Quarto."
+  },
+  {
+    "objectID": "index.html#requisitos",
+    "href": "index.html#requisitos",
+    "title": "Programación y análisis estadístico con R",
+    "section": "Requisitos",
+    "text": "Requisitos\nIndispensables:\n\nComputador con al menos 2 GB de RAM y procesador de 64 bits.\nConexión estable a internet\n\nRecomendados:\n\nSistema operativo Windows 10/11"
+  },
+  {
+    "objectID": "index.html#canales-de-comunicación",
+    "href": "index.html#canales-de-comunicación",
+    "title": "Programación y análisis estadístico con R",
+    "section": "Canales de comunicación",
+    "text": "Canales de comunicación\n\nCanal EduContStats en Zulip.\nEmail: mmorenozambrano@protonmail.com (únicamente para la tarea final)"
+  },
+  {
+    "objectID": "index.html#contenidos-del-curso",
+    "href": "index.html#contenidos-del-curso",
+    "title": "Programación y análisis estadístico con R",
+    "section": "Contenidos del curso",
+    "text": "Contenidos del curso\n\n\n\n\n\n\n\nMódulo\nContenido\n\n\n\n\nMódulo 1: Generalidades e Introducción a R\nDuración: 2.5 horas\n\nGeneralidades\nIntroducción a R\nInstalación de R y RStudio\nTipos de objetos en R\nLibrerías\nOperaciones estadísticas básicas\nEstadísticos descriptivos y tablas de frecuencia\n\n\n\nMódulo 2: Principios de programación en R\nDuración: 2.5 horas\n\nOperandos y comandos más usados\nIndexación\nFunciones\nLibrería tidyverse\nOperaciones básicas de tablas de datos con tidyverse\n\n\n\nMódulo 3: Visualización de datos con ggplot2\nDuración: 5 horas\n\nIntroducción\nFunción de mapeo\nGeometrías\nAgrupamiento\nEscalas y facetas\nEtiquetas\nEstilos predeterminados\nFiguras como objetos\nLibrería patchwork\nTipos básicos de figuras\nAnálisis exploratorio\n\n\n\nMódulo 4: Principios de Programación en R - Segunda parte\nDuración: 2.5 horas\n\nBuenas practicas de programacion\nImportación de datos\nOperaciones con tablas de datos: formatos largo y ancho\nExportación de datos\nDonde buscar ayuda para R\nR y ChatGPT\n\n\n\nMódulo 5: Introducción a la estadística en R\nDuración: 5 horas\n\nConceptos básicos en estadística\nPrincipios básicos de diseño de experimentos\nPruebas t\nAnálisis de varianza\nPruebas no paramétricas\n\n\n\nMódulo 6: Conceptos básicos en creación de reportes y gráficos profesionales en R\nDuración: 2.5 horas\n\nFormato de tablas\nFormato de figuras\nIntroducción a Quarto"
+  },
+  {
+    "objectID": "index.html#organización-general-del-curso",
+    "href": "index.html#organización-general-del-curso",
+    "title": "Programación y análisis estadístico con R",
+    "section": "Organización general del curso",
+    "text": "Organización general del curso\nLas clases tomarán parte en los días Sábados 14, 21, 28 de octubre y 11 de noviembre de 2023 de 9H00 a 15H00, con una hora de receso para almuerzo entre 12H00 a 13H00.\nEl curso tiene un total de 20 horas de clases más 20 horas de aprendizaje autónomo, con un total de 40 horas que serán certificadas una vez entregado y evaluado el trabajo final del curso."
   }
 ]

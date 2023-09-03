@@ -3,16 +3,40 @@ project:
   output-dir: docs
 
 website:
-  title: "Programación con R"
+  title: "ProgR"
+  image: icon.png
+  favicon: icon.png
+  open-graph: true
   navbar:
+    logo: icon.png
+    title: false
     left:
       - href: index.qmd
-        text: Home
-      - about.qmd
+        text: Inicio
+      - materiales.qmd
+      - text: Módulos
+        menu:
+          - text: "Módulo 1"
+            href: "https://mmorenozam.github.io/uce2023-modulo/"
+            target: "_blank"
+          - text: "Módulo 2"
+            href: "https://mmorenozam.github.io/uce2023-modulo/"
+            target: "_blank"
+          - text: "Módulo 3"
+            href: "https://mmorenozam.github.io/uce2023-modulo/"
+            target: "_blank"
+          - text: "Módulo 4"
+            href: "https://mmorenozam.github.io/uce2023-modulo/"
+            target: "_blank"
+          - text: "Módulo 5"
+            href: "https://mmorenozam.github.io/uce2023-modulos/"
+            target: "_blank"
+      - href: about.qmd
+        text: Acerca
 
 format:
   html:
-    theme: cosmo
+    theme: journal
     css: styles.css
     toc: true
 

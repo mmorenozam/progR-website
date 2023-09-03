@@ -1,11 +1,144 @@
 ---
-title: "progR-website"
+title: "Programación y análisis estadístico con R"
 ---
 
-This is a Quarto website.
+Curso online organizado por la Universidad Central del Ecuador, Octubre/Noviembre de 2023
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+<!-- **Página actualizada el** -->
 
-```{r}
-1 + 1
-```
+<!-- ## Anuncios -->
+
+<!-- -   [**Los anuncios aqui**]{style="color:red;"} -->
+
+## Organización general del curso
+
+Las clases tomarán parte en los días Sábados 14, 21, 28 de octubre y 11 de noviembre de 2023 de 9H00 a 15H00, con una hora de receso para almuerzo entre 12H00 a 13H00.
+
+El curso tiene un total de 20 horas de clases más 20 horas de aprendizaje autónomo, con un total de 40 horas que serán certificadas una vez entregado y evaluado el trabajo final del curso.
+
+
+## Objetivos de aprendizaje
+
+-   Al término de este curso, el estudiante será capaz de:
+
+    -   Realizar operaciones básicas en R, tales como: cargar, modificar, limpiar y guardar tablas de datos.
+
+    -   Realizar gráficos de manera profesional utilizando las librerías `ggplot2` y `patchwork`.
+
+    -   Llevar a cabo análisis exploratorio de datos.
+
+    -   Llevar a cabo e interpretar los resultados de metodologías estadísticas básicas, tales como: pruebas t, análisis de varianza, análisis de covarianza, regresión lineal, regresión lineal múltiple.
+
+    -   Generar reportes estadísticos básicos utilizando la librería `rmarkdown` y el software Quarto.
+
+## Requisitos
+
+Indispensables:
+
+-   Computador con al menos 2 GB de RAM y procesador de **64 bits**.
+
+-   Conexión estable a internet
+
+Recomendados:
+
+-   Sistema operativo Windows 10/11
+
+## Canales de comunicación
+
+-   Canal EduContStats en [Zulip](https://educontstats.zulipchat.com){target="_blank"}.
+
+-   Email: **mmorenozambrano\@protonmail.com** (únicamente para la tarea final)
+
+## Contenidos del curso
+
++-----------------------------------------------------------------------------------+-------------------------------------------------------------+
+| Módulo                                                                            | Contenido                                                   |
++===================================================================================+=============================================================+
+| Módulo 1: Generalidades e Introducción a R                                        | 1.  Generalidades                                           |
+|                                                                                   |                                                             |
+| Duración: 2.5 horas                                                               | 2.  Introducción a R                                        |
+|                                                                                   |                                                             |
+|                                                                                   | 3.  Instalación de R y RStudio                              |
+|                                                                                   |                                                             |
+|                                                                                   | 4.  Tipos de objetos en R                                   |
+|                                                                                   |                                                             |
+|                                                                                   | 5.  Librerías                                               |
+|                                                                                   |                                                             |
+|                                                                                   | 6.  Operaciones estadísticas básicas                        |
+|                                                                                   |                                                             |
+|                                                                                   | 7.  Estadísticos descriptivos y tablas de frecuencia        |
++-----------------------------------------------------------------------------------+-------------------------------------------------------------+
+| Módulo 2: Principios de programación en R                                         | 1.  Operandos y comandos más usados                         |
+|                                                                                   |                                                             |
+| Duración: 2.5 horas                                                               | 2.  Indexación                                              |
+|                                                                                   |                                                             |
+|                                                                                   | 3.  Funciones                                               |
+|                                                                                   |                                                             |
+|                                                                                   | 4.  Librería `tidyverse`                                    |
+|                                                                                   |                                                             |
+|                                                                                   | 5.  Operaciones básicas de tablas de datos con `tidyverse`  |
++-----------------------------------------------------------------------------------+-------------------------------------------------------------+
+| Módulo 3: Visualización de datos con `ggplot2`                                    | 1.  Introducción                                            |
+|                                                                                   |                                                             |
+| Duración: 5 horas                                                                 | 2.  Función de mapeo                                        |
+|                                                                                   |                                                             |
+|                                                                                   | 3.  Geometrías                                              |
+|                                                                                   |                                                             |
+|                                                                                   | 4.  Agrupamiento                                            |
+|                                                                                   |                                                             |
+|                                                                                   | 5.  Escalas y facetas                                       |
+|                                                                                   |                                                             |
+|                                                                                   | 6.  Etiquetas                                               |
+|                                                                                   |                                                             |
+|                                                                                   | 7.  Estilos predeterminados                                 |
+|                                                                                   |                                                             |
+|                                                                                   | 8.  Figuras como objetos                                    |
+|                                                                                   |                                                             |
+|                                                                                   | 9.  Librería `patchwork`                                    |
+|                                                                                   |                                                             |
+|                                                                                   | 10. Tipos básicos de figuras                                |
+|                                                                                   |                                                             |
+|                                                                                   | 11. Análisis exploratorio                                   |
++-----------------------------------------------------------------------------------+-------------------------------------------------------------+
+| Módulo 4: Principios de Programación en R - Segunda parte                         | 1.  Buenas practicas de programacion                        |
+|                                                                                   |                                                             |
+| Duración: 2.5 horas                                                               | 2.  Importación de datos                                    |
+|                                                                                   |                                                             |
+|                                                                                   | 3.  Operaciones con tablas de datos: formatos largo y ancho |
+|                                                                                   |                                                             |
+|                                                                                   | 4.  Exportación de datos                                    |
+|                                                                                   |                                                             |
+|                                                                                   | 5.  Donde buscar ayuda para R                               |
+|                                                                                   |                                                             |
+|                                                                                   | 6.  R y ChatGPT                                             |
++-----------------------------------------------------------------------------------+-------------------------------------------------------------+
+| Módulo 5: Introducción a la estadística en R                                      | 1.  Conceptos básicos en estadística                        |
+|                                                                                   |                                                             |
+| Duración: 5 horas                                                                 | 2.  Principios básicos de diseño de experimentos            |
+|                                                                                   |                                                             |
+|                                                                                   | 3.  Pruebas t                                               |
+|                                                                                   |                                                             |
+|                                                                                   | 4.  Análisis de varianza                                    |
+|                                                                                   |                                                             |
+|                                                                                   | 5.  Pruebas no paramétricas                                 |
++-----------------------------------------------------------------------------------+-------------------------------------------------------------+
+| Módulo 6: Conceptos básicos en creación de reportes y gráficos profesionales en R | 1.  Formato de tablas                                       |
+|                                                                                   |                                                             |
+| Duración: 2.5 horas                                                               | 2.  Formato de figuras                                      |
+|                                                                                   |                                                             |
+|                                                                                   | 3.  Introducción a Quarto                                   |
++-----------------------------------------------------------------------------------+-------------------------------------------------------------+
+
+<!-- ## Introducción -->
+
+<!-- El análisis de datos es una destreza que ha venido ganando más y más importancia en tiempos recientes. Un profesional con habilidades de conducción, interpretación y entrega de análisis estadísticos tiene sin lugar a dudas grandes ventajas a su favor en el campo laboral. De esta manera, ante la devenida de más competencia de personas altamente capacitadas, el aprender lenguajes de programación especializados ofrece la oportunidad de destacar en procesos de selección tanto en la academia cómo en la industria.  -->
+
+<!-- Por estas razones, el objetivo de este curso es brindar al estudiante las herramientas necesarias para realizar de manera independiente análisis estadísticos básicos partiendo desde la limpieza de datos, pasando por la realización de gráficos profesionales listos por publicación, hasta la generación de reportes estadísticos claros y concisos. -->
+
+<!-- ## ¿Por qué R? -->
+
+<!-- Al momento de decidirse a invertir tiempo (y dinero), la pregunta de qué lenguaje de programación escoger para llevar a cabo ciencia de datos suele reducirse entre R y Python. Esta pregunta muy válida, tiene respuestas por supuesto sesgadas por el punto de vista y la experiencia de quien la responda. Y por tanto, mi respuesta sesgada basada en más de 10 años de experiencia mayoritariamente con R es la de recomendar R. -->
+
+<!-- Desarrollando un poco más la idea, la decisión entre R y Python, depende mucho en los objetivos que tengamos con respecto al análisis de datos que deseamos llevar a cabo. Sin entrar en  -->
+
+<!-- Una de las preguntas más frecuentes al momento de decidirse en invertir tiempo (y dinero a veces) en un lenguaje de programación a veces -->
