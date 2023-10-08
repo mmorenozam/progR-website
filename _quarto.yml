@@ -17,7 +17,7 @@ website:
       - text: Módulos
         menu:
           - text: "Módulo 1"
-            href: "https://mmorenozam.github.io/uce2023-modulo/"
+            href: "https://mmorenozam.github.io/progR_modulo1/"
             target: "_blank"
           - text: "Módulo 2"
             href: "https://mmorenozam.github.io/uce2023-modulo/"
@@ -29,6 +29,9 @@ website:
             href: "https://mmorenozam.github.io/uce2023-modulo/"
             target: "_blank"
           - text: "Módulo 5"
+            href: "https://mmorenozam.github.io/uce2023-modulos/"
+            target: "_blank"
+          - text: "Módulo 6"
             href: "https://mmorenozam.github.io/uce2023-modulos/"
             target: "_blank"
       - href: about.qmd

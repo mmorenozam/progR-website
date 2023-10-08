@@ -1,5 +1,5 @@
 ---
-title: "Programación y análisis estadístico con R"
+title: "Introducción a la visualización de datos y creación de reportes en R"
 ---
 
 Curso online organizado por la Universidad Central del Ecuador, Octubre/Noviembre de 2023
@@ -16,7 +16,6 @@ Las clases tomarán parte en los días Sábados 14, 21, 28 de octubre y 11 de no
 
 El curso tiene un total de 20 horas de clases más 20 horas de aprendizaje autónomo, con un total de 40 horas que serán certificadas una vez entregado y evaluado el trabajo final del curso.
 
-
 ## Objetivos de aprendizaje
 
 -   Al término de este curso, el estudiante será capaz de:
@@ -27,7 +26,7 @@ El curso tiene un total de 20 horas de clases más 20 horas de aprendizaje autó
 
     -   Llevar a cabo análisis exploratorio de datos.
 
-    -   Llevar a cabo e interpretar los resultados de metodologías estadísticas básicas, tales como: pruebas t, análisis de varianza, análisis de covarianza, regresión lineal, regresión lineal múltiple.
+    -   Llevar a cabo e interpretar los resultados de metodologías estadísticas básicas, tales como: pruebas t, análisis de varianza, análisis de covarianza, regresión lineal, regresión lineal múltiple entre otras.
 
     -   Generar reportes estadísticos básicos utilizando la librería `rmarkdown` y el software Quarto.
 
@@ -60,13 +59,21 @@ Recomendados:
 |                                                                                   |                                                             |
 |                                                                                   | 3.  Instalación de R y RStudio                              |
 |                                                                                   |                                                             |
-|                                                                                   | 4.  Tipos de objetos en R                                   |
+|                                                                                   | 4.  Tipos de datos en R                                     |
 |                                                                                   |                                                             |
-|                                                                                   | 5.  Librerías                                               |
+|                                                                                   | 5.  Operadores básicos                                      |
 |                                                                                   |                                                             |
-|                                                                                   | 6.  Operaciones estadísticas básicas                        |
+|                                                                                   | 6.  Tipos de objetos en R                                   |
 |                                                                                   |                                                             |
-|                                                                                   | 7.  Estadísticos descriptivos y tablas de frecuencia        |
+|                                                                                   | 7.  Paquetes y librerías                                    |
+|                                                                                   |                                                             |
+|                                                                                   | 8.  Ayuda en R                                              |
+|                                                                                   |                                                             |
+|                                                                                   | 9.  Operaciones básicas                                     |
+|                                                                                   |                                                             |
+|                                                                                   | 10. Operaciones estadísticas básicas                        |
+|                                                                                   |                                                             |
+|                                                                                   | 11. Estadísticos descriptivos y tablas de frecuencia        |
 +-----------------------------------------------------------------------------------+-------------------------------------------------------------+
 | Módulo 2: Principios de programación en R                                         | 1.  Operandos y comandos más usados                         |
 |                                                                                   |                                                             |
@@ -128,17 +135,3 @@ Recomendados:
 |                                                                                   |                                                             |
 |                                                                                   | 3.  Introducción a Quarto                                   |
 +-----------------------------------------------------------------------------------+-------------------------------------------------------------+
-
-<!-- ## Introducción -->
-
-<!-- El análisis de datos es una destreza que ha venido ganando más y más importancia en tiempos recientes. Un profesional con habilidades de conducción, interpretación y entrega de análisis estadísticos tiene sin lugar a dudas grandes ventajas a su favor en el campo laboral. De esta manera, ante la devenida de más competencia de personas altamente capacitadas, el aprender lenguajes de programación especializados ofrece la oportunidad de destacar en procesos de selección tanto en la academia cómo en la industria.  -->
-
-<!-- Por estas razones, el objetivo de este curso es brindar al estudiante las herramientas necesarias para realizar de manera independiente análisis estadísticos básicos partiendo desde la limpieza de datos, pasando por la realización de gráficos profesionales listos por publicación, hasta la generación de reportes estadísticos claros y concisos. -->
-
-<!-- ## ¿Por qué R? -->
-
-<!-- Al momento de decidirse a invertir tiempo (y dinero), la pregunta de qué lenguaje de programación escoger para llevar a cabo ciencia de datos suele reducirse entre R y Python. Esta pregunta muy válida, tiene respuestas por supuesto sesgadas por el punto de vista y la experiencia de quien la responda. Y por tanto, mi respuesta sesgada basada en más de 10 años de experiencia mayoritariamente con R es la de recomendar R. -->
-
-<!-- Desarrollando un poco más la idea, la decisión entre R y Python, depende mucho en los objetivos que tengamos con respecto al análisis de datos que deseamos llevar a cabo. Sin entrar en  -->
-
-<!-- Una de las preguntas más frecuentes al momento de decidirse en invertir tiempo (y dinero a veces) en un lenguaje de programación a veces -->

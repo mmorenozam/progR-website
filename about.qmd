@@ -1,9 +1,29 @@
 ---
-title: "Acerca del instructor"
+title: "Acerca del curso"
 ---
 
-About this site
+## Introducción
 
-```{r}
-1 + 1
-```
+El análisis de datos es una destreza que ha venido ganando más y más importancia en tiempos recientes. Un profesional con habilidades de conducción, interpretación y entrega de análisis estadísticos tiene sin lugar a dudas grandes ventajas a su favor en el campo laboral. De esta manera, ante el incremento en competencia de personas altamente capacitadas, el aprender lenguajes de programación especializados ofrece la oportunidad de destacar en procesos de selección tanto en la academia cómo en la industria.
+
+Por estas razones, el objetivo de este curso es brindar al estudiante las herramientas necesarias para realizar de manera independiente análisis estadísticos básicos partiendo desde la limpieza de datos, pasando por la realización de gráficos profesionales listos para publicación, hasta la generación de reportes estadísticos claros y concisos.
+
+Comprende por tanto una introducción superficial en conceptos y metodologías estadísticas de amplio uso. No corresponde en ningún sentido a un curso de especialización, ya que cada módulo podría representar un curso en si mismo si nos adentraramos en los pormenores de cada tema.
+
+## ¿Por qué R?
+
+Al momento de decidirse a invertir tiempo (y dinero), la pregunta de qué lenguaje de programación escoger para llevar a cabo ciencia de datos suele reducirse entre R y Python. Esta pregunta, muy válida por supuesto, siempre tendrá una respuesta distinta dependiendo de la experiencia y la familiaridad que tenga la persona que la responda con uno u otro lenguaje. En otras palabras, no existe una respuesta incorrecta.
+
+Desde mi perspectiva, como programador estadístico con más de 10 años de experiencia, mi respuesta se limita a: **"depende"**. Desde el ámbito académico, R tiene nichos donde su uso está más o menos bien establecido, tales como la ecología y la biología. En otros campos, se está abriendo terreno dejando en desuso otros lenguajes de programación, tal es el caso de su creciente uso en ciencias sociales e investigación biomédica, desplazando a SPSS y SAS respectivamente.
+
+Por otra parte, en la industria, el uso tanto de R y Python se está imponiendo a pasos agigantados. Grandes compañías están actualmente experimentando procesos de transición de llevar sus análisis *in situ* hacia la "nube" en plataformas como Amazon Web Services o Google Cloud. En esta transición, el uso de lenguajes de licencia libre es preponderante, precisamente por la flexibilidad que ofrecen al programador de crear soluciones inmediatas sin esperar al lanzamiento de nuevas versiones de software comercial.
+
+Pero volviendo al tema de mi respuesta, el decidirse entre R, Python, u otro lenguaje, depende de las motivaciones para aprender un lenguaje de programación. R es primordialmente un lenguaje estadístico, ya que fue creado primariamente con ese fin. Si bien es cierto, hoy por hoy es capaz de llevar a cabo tareas más allá de la estadística (por ejemplo, este sitio web y todas las diapositivas del curso las he creado en R), yo recomendaría aprender R por su robustes y versatilidad en estadística.
+
+Si, por el contrario, el objetivo del estudiante es el de desarrollar soluciones programáticas (ejemplo, aplicaciones móviles, cascadas de análisis), mi recomendación sería el inclinarse por aprender Python.
+
+Cabe recalcar que en términos de las capacidades de análisis entre Python y R, ambos tienen sólidas librerías para su conducción y me resultaría difícil el escoger un ganador con pruebas documentales (benchmarking que le llaman). Sin embargo, reiterando en el sesgo que mencioné al inicio, mi sesgo personal se inclina a recomendar siempre R, si de análisis de datos se trata.
+
+## Acerca del instructor
+
+Soy Científico Bioestadístico en Bayer Crop Science, Doctor en Bioinformática, Máster en Estadística e Ingeniero en Biotecnología. Llevo programando en R desde el 2012 cuando comencé mi viaje por el mundo de la estadística. He trabajado como consultor independiente, educador, analista de estadísticas, doctorante y postdoc.

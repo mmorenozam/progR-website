@@ -2,43 +2,71 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Programación y análisis estadístico con R",
+    "title": "Introducción a la visualización de datos y creación de reportes en R",
     "section": "",
     "text": "Curso online organizado por la Universidad Central del Ecuador, Octubre/Noviembre de 2023"
   },
   {
     "objectID": "index.html#organización-general-del-curso",
     "href": "index.html#organización-general-del-curso",
-    "title": "Programación y análisis estadístico con R",
+    "title": "Introducción a la visualización de datos y creación de reportes en R",
     "section": "Organización general del curso",
     "text": "Organización general del curso\nLas clases tomarán parte en los días Sábados 14, 21, 28 de octubre y 11 de noviembre de 2023 de 9H00 a 15H00, con una hora de receso para almuerzo entre 12H00 a 13H00.\nEl curso tiene un total de 20 horas de clases más 20 horas de aprendizaje autónomo, con un total de 40 horas que serán certificadas una vez entregado y evaluado el trabajo final del curso."
   },
   {
     "objectID": "index.html#objetivos-de-aprendizaje",
     "href": "index.html#objetivos-de-aprendizaje",
-    "title": "Programación y análisis estadístico con R",
+    "title": "Introducción a la visualización de datos y creación de reportes en R",
     "section": "Objetivos de aprendizaje",
-    "text": "Objetivos de aprendizaje\n\nAl término de este curso, el estudiante será capaz de:\n\nRealizar operaciones básicas en R, tales como: cargar, modificar, limpiar y guardar tablas de datos.\nRealizar gráficos de manera profesional utilizando las librerías ggplot2 y patchwork.\nLlevar a cabo análisis exploratorio de datos.\nLlevar a cabo e interpretar los resultados de metodologías estadísticas básicas, tales como: pruebas t, análisis de varianza, análisis de covarianza, regresión lineal, regresión lineal múltiple.\nGenerar reportes estadísticos básicos utilizando la librería rmarkdown y el software Quarto."
+    "text": "Objetivos de aprendizaje\n\nAl término de este curso, el estudiante será capaz de:\n\nRealizar operaciones básicas en R, tales como: cargar, modificar, limpiar y guardar tablas de datos.\nRealizar gráficos de manera profesional utilizando las librerías ggplot2 y patchwork.\nLlevar a cabo análisis exploratorio de datos.\nLlevar a cabo e interpretar los resultados de metodologías estadísticas básicas, tales como: pruebas t, análisis de varianza, análisis de covarianza, regresión lineal, regresión lineal múltiple entre otras.\nGenerar reportes estadísticos básicos utilizando la librería rmarkdown y el software Quarto."
   },
   {
     "objectID": "index.html#requisitos",
     "href": "index.html#requisitos",
-    "title": "Programación y análisis estadístico con R",
+    "title": "Introducción a la visualización de datos y creación de reportes en R",
     "section": "Requisitos",
     "text": "Requisitos\nIndispensables:\n\nComputador con al menos 2 GB de RAM y procesador de 64 bits.\nConexión estable a internet\n\nRecomendados:\n\nSistema operativo Windows 10/11"
   },
   {
     "objectID": "index.html#canales-de-comunicación",
     "href": "index.html#canales-de-comunicación",
-    "title": "Programación y análisis estadístico con R",
+    "title": "Introducción a la visualización de datos y creación de reportes en R",
     "section": "Canales de comunicación",
     "text": "Canales de comunicación\n\nCanal EduContStats en Zulip.\nEmail: mmorenozambrano@protonmail.com (únicamente para la tarea final)"
   },
   {
     "objectID": "index.html#contenidos-del-curso",
     "href": "index.html#contenidos-del-curso",
-    "title": "Programación y análisis estadístico con R",
+    "title": "Introducción a la visualización de datos y creación de reportes en R",
     "section": "Contenidos del curso",
-    "text": "Contenidos del curso\n\n\n\n\n\n\n\nMódulo\nContenido\n\n\n\n\nMódulo 1: Generalidades e Introducción a R\nDuración: 2.5 horas\n\nGeneralidades\nIntroducción a R\nInstalación de R y RStudio\nTipos de objetos en R\nLibrerías\nOperaciones estadísticas básicas\nEstadísticos descriptivos y tablas de frecuencia\n\n\n\nMódulo 2: Principios de programación en R\nDuración: 2.5 horas\n\nOperandos y comandos más usados\nIndexación\nFunciones\nLibrería tidyverse\nOperaciones básicas de tablas de datos con tidyverse\n\n\n\nMódulo 3: Visualización de datos con ggplot2\nDuración: 5 horas\n\nIntroducción\nFunción de mapeo\nGeometrías\nAgrupamiento\nEscalas y facetas\nEtiquetas\nEstilos predeterminados\nFiguras como objetos\nLibrería patchwork\nTipos básicos de figuras\nAnálisis exploratorio\n\n\n\nMódulo 4: Principios de Programación en R - Segunda parte\nDuración: 2.5 horas\n\nBuenas practicas de programacion\nImportación de datos\nOperaciones con tablas de datos: formatos largo y ancho\nExportación de datos\nDonde buscar ayuda para R\nR y ChatGPT\n\n\n\nMódulo 5: Introducción a la estadística en R\nDuración: 5 horas\n\nConceptos básicos en estadística\nPrincipios básicos de diseño de experimentos\nPruebas t\nAnálisis de varianza\nPruebas no paramétricas\n\n\n\nMódulo 6: Conceptos básicos en creación de reportes y gráficos profesionales en R\nDuración: 2.5 horas\n\nFormato de tablas\nFormato de figuras\nIntroducción a Quarto"
+    "text": "Contenidos del curso\n\n\n\n\n\n\n\nMódulo\nContenido\n\n\n\n\nMódulo 1: Generalidades e Introducción a R\nDuración: 2.5 horas\n\nGeneralidades\nIntroducción a R\nInstalación de R y RStudio\nTipos de datos en R\nOperadores básicos\nTipos de objetos en R\nPaquetes y librerías\nAyuda en R\nOperaciones básicas\nOperaciones estadísticas básicas\nEstadísticos descriptivos y tablas de frecuencia\n\n\n\nMódulo 2: Principios de programación en R\nDuración: 2.5 horas\n\nOperandos y comandos más usados\nIndexación\nFunciones\nLibrería tidyverse\nOperaciones básicas de tablas de datos con tidyverse\n\n\n\nMódulo 3: Visualización de datos con ggplot2\nDuración: 5 horas\n\nIntroducción\nFunción de mapeo\nGeometrías\nAgrupamiento\nEscalas y facetas\nEtiquetas\nEstilos predeterminados\nFiguras como objetos\nLibrería patchwork\nTipos básicos de figuras\nAnálisis exploratorio\n\n\n\nMódulo 4: Principios de Programación en R - Segunda parte\nDuración: 2.5 horas\n\nBuenas practicas de programacion\nImportación de datos\nOperaciones con tablas de datos: formatos largo y ancho\nExportación de datos\nDonde buscar ayuda para R\nR y ChatGPT\n\n\n\nMódulo 5: Introducción a la estadística en R\nDuración: 5 horas\n\nConceptos básicos en estadística\nPrincipios básicos de diseño de experimentos\nPruebas t\nAnálisis de varianza\nPruebas no paramétricas\n\n\n\nMódulo 6: Conceptos básicos en creación de reportes y gráficos profesionales en R\nDuración: 2.5 horas\n\nFormato de tablas\nFormato de figuras\nIntroducción a Quarto"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Acerca del curso",
+    "section": "",
+    "text": "El análisis de datos es una destreza que ha venido ganando más y más importancia en tiempos recientes. Un profesional con habilidades de conducción, interpretación y entrega de análisis estadísticos tiene sin lugar a dudas grandes ventajas a su favor en el campo laboral. De esta manera, ante el incremento en competencia de personas altamente capacitadas, el aprender lenguajes de programación especializados ofrece la oportunidad de destacar en procesos de selección tanto en la academia cómo en la industria.\nPor estas razones, el objetivo de este curso es brindar al estudiante las herramientas necesarias para realizar de manera independiente análisis estadísticos básicos partiendo desde la limpieza de datos, pasando por la realización de gráficos profesionales listos para publicación, hasta la generación de reportes estadísticos claros y concisos.\nComprende por tanto una introducción superficial en conceptos y metodologías estadísticas de amplio uso. No corresponde en ningún sentido a un curso de especialización, ya que cada módulo podría representar un curso en si mismo si nos adentraramos en los pormenores de cada tema."
+  },
+  {
+    "objectID": "about.html#introducción",
+    "href": "about.html#introducción",
+    "title": "Acerca del curso",
+    "section": "",
+    "text": "El análisis de datos es una destreza que ha venido ganando más y más importancia en tiempos recientes. Un profesional con habilidades de conducción, interpretación y entrega de análisis estadísticos tiene sin lugar a dudas grandes ventajas a su favor en el campo laboral. De esta manera, ante el incremento en competencia de personas altamente capacitadas, el aprender lenguajes de programación especializados ofrece la oportunidad de destacar en procesos de selección tanto en la academia cómo en la industria.\nPor estas razones, el objetivo de este curso es brindar al estudiante las herramientas necesarias para realizar de manera independiente análisis estadísticos básicos partiendo desde la limpieza de datos, pasando por la realización de gráficos profesionales listos para publicación, hasta la generación de reportes estadísticos claros y concisos.\nComprende por tanto una introducción superficial en conceptos y metodologías estadísticas de amplio uso. No corresponde en ningún sentido a un curso de especialización, ya que cada módulo podría representar un curso en si mismo si nos adentraramos en los pormenores de cada tema."
+  },
+  {
+    "objectID": "about.html#por-qué-r",
+    "href": "about.html#por-qué-r",
+    "title": "Acerca del curso",
+    "section": "¿Por qué R?",
+    "text": "¿Por qué R?\nAl momento de decidirse a invertir tiempo (y dinero), la pregunta de qué lenguaje de programación escoger para llevar a cabo ciencia de datos suele reducirse entre R y Python. Esta pregunta, muy válida por supuesto, siempre tendrá una respuesta distinta dependiendo de la experiencia y la familiaridad que tenga la persona que la responda con uno u otro lenguaje. En otras palabras, no existe una respuesta incorrecta.\nDesde mi perspectiva, como programador estadístico con más de 10 años de experiencia, mi respuesta se limita a: “depende”. Desde el ámbito académico, R tiene nichos donde su uso está más o menos bien establecido, tales como la ecología y la biología. En otros campos, se está abriendo terreno dejando en desuso otros lenguajes de programación, tal es el caso de su creciente uso en ciencias sociales e investigación biomédica, desplazando a SPSS y SAS respectivamente.\nPor otra parte, en la industria, el uso tanto de R y Python se está imponiendo a pasos agigantados. Grandes compañías están actualmente experimentando procesos de transición de llevar sus análisis in situ hacia la “nube” en plataformas como Amazon Web Services o Google Cloud. En esta transición, el uso de lenguajes de licencia libre es preponderante, precisamente por la flexibilidad que ofrecen al programador de crear soluciones inmediatas sin esperar al lanzamiento de nuevas versiones de software comercial.\nPero volviendo al tema de mi respuesta, el decidirse entre R, Python, u otro lenguaje, depende de las motivaciones para aprender un lenguaje de programación. R es primordialmente un lenguaje estadístico, ya que fue creado primariamente con ese fin. Si bien es cierto, hoy por hoy es capaz de llevar a cabo tareas más allá de la estadística (por ejemplo, este sitio web y todas las diapositivas del curso las he creado en R), yo recomendaría aprender R por su robustes y versatilidad en estadística.\nSi, por el contrario, el objetivo del estudiante es el de desarrollar soluciones programáticas (ejemplo, aplicaciones móviles, cascadas de análisis), mi recomendación sería el inclinarse por aprender Python.\nCabe recalcar que en términos de las capacidades de análisis entre Python y R, ambos tienen sólidas librerías para su conducción y me resultaría difícil el escoger un ganador con pruebas documentales (benchmarking que le llaman). Sin embargo, reiterando en el sesgo que mencioné al inicio, mi sesgo personal se inclina a recomendar siempre R, si de análisis de datos se trata."
+  },
+  {
+    "objectID": "about.html#acerca-del-instructor",
+    "href": "about.html#acerca-del-instructor",
+    "title": "Acerca del curso",
+    "section": "Acerca del instructor",
+    "text": "Acerca del instructor\nSoy Científico Bioestadístico en Bayer Crop Science, Doctor en Bioinformática, Máster en Estadística e Ingeniero en Biotecnología. Llevo programando en R desde el 2012 cuando comencé mi viaje por el mundo de la estadística. He trabajado como consultor independiente, educador, analista de estadísticas, doctorante y postdoc."
   }
 ]
