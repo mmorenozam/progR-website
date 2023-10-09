@@ -42,6 +42,8 @@ format:
     theme: journal
     css: styles.css
     toc: true
+    toc-location: left
+    toc-title: Contenidos
 
 
 
