@@ -50,88 +50,78 @@ Recomendados:
 
 ## Contenidos del curso
 
-+-----------------------------------------------------------------------------------+-------------------------------------------------------------+
-| Módulo                                                                            | Contenido                                                   |
-+===================================================================================+=============================================================+
-| Módulo 1: Generalidades e Introducción a R                                        | 1.  Generalidades                                           |
-|                                                                                   |                                                             |
-| Duración: 2.5 horas                                                               | 2.  Introducción a R                                        |
-|                                                                                   |                                                             |
-|                                                                                   | 3.  Instalación de R y RStudio                              |
-|                                                                                   |                                                             |
-|                                                                                   | 4.  Tipos de datos en R                                     |
-|                                                                                   |                                                             |
-|                                                                                   | 5.  Operadores básicos                                      |
-|                                                                                   |                                                             |
-|                                                                                   | 6.  Tipos de objetos en R                                   |
-|                                                                                   |                                                             |
-|                                                                                   | 7.  Paquetes y librerías                                    |
-|                                                                                   |                                                             |
-|                                                                                   | 8.  Ayuda en R                                              |
-|                                                                                   |                                                             |
-|                                                                                   | 9.  Operaciones básicas                                     |
-|                                                                                   |                                                             |
-|                                                                                   | 10. Operaciones estadísticas básicas                        |
-|                                                                                   |                                                             |
-|                                                                                   | 11. Estadísticos descriptivos y tablas de frecuencia        |
-+-----------------------------------------------------------------------------------+-------------------------------------------------------------+
-| Módulo 2: Principios de programación en R                                         | 1.  Operandos y comandos más usados                         |
-|                                                                                   |                                                             |
-| Duración: 2.5 horas                                                               | 2.  Indexación                                              |
-|                                                                                   |                                                             |
-|                                                                                   | 3.  Funciones                                               |
-|                                                                                   |                                                             |
-|                                                                                   | 4.  Librería `tidyverse`                                    |
-|                                                                                   |                                                             |
-|                                                                                   | 5.  Operaciones básicas de tablas de datos con `tidyverse`  |
-+-----------------------------------------------------------------------------------+-------------------------------------------------------------+
-| Módulo 3: Visualización de datos con `ggplot2`                                    | 1.  Introducción                                            |
-|                                                                                   |                                                             |
-| Duración: 5 horas                                                                 | 2.  Función de mapeo                                        |
-|                                                                                   |                                                             |
-|                                                                                   | 3.  Geometrías                                              |
-|                                                                                   |                                                             |
-|                                                                                   | 4.  Agrupamiento                                            |
-|                                                                                   |                                                             |
-|                                                                                   | 5.  Escalas y facetas                                       |
-|                                                                                   |                                                             |
-|                                                                                   | 6.  Etiquetas                                               |
-|                                                                                   |                                                             |
-|                                                                                   | 7.  Estilos predeterminados                                 |
-|                                                                                   |                                                             |
-|                                                                                   | 8.  Figuras como objetos                                    |
-|                                                                                   |                                                             |
-|                                                                                   | 9.  Librería `patchwork`                                    |
-|                                                                                   |                                                             |
-|                                                                                   | 10. Tipos básicos de figuras                                |
-|                                                                                   |                                                             |
-|                                                                                   | 11. Análisis exploratorio                                   |
-+-----------------------------------------------------------------------------------+-------------------------------------------------------------+
-| Módulo 4: Principios de Programación en R - Segunda parte                         | 1.  Buenas practicas de programacion                        |
-|                                                                                   |                                                             |
-| Duración: 2.5 horas                                                               | 2.  Importación de datos                                    |
-|                                                                                   |                                                             |
-|                                                                                   | 3.  Operaciones con tablas de datos: formatos largo y ancho |
-|                                                                                   |                                                             |
-|                                                                                   | 4.  Exportación de datos                                    |
-|                                                                                   |                                                             |
-|                                                                                   | 5.  Donde buscar ayuda para R                               |
-|                                                                                   |                                                             |
-|                                                                                   | 6.  R y ChatGPT                                             |
-+-----------------------------------------------------------------------------------+-------------------------------------------------------------+
-| Módulo 5: Introducción a la estadística en R                                      | 1.  Conceptos básicos en estadística                        |
-|                                                                                   |                                                             |
-| Duración: 5 horas                                                                 | 2.  Principios básicos de diseño de experimentos            |
-|                                                                                   |                                                             |
-|                                                                                   | 3.  Pruebas t                                               |
-|                                                                                   |                                                             |
-|                                                                                   | 4.  Análisis de varianza                                    |
-|                                                                                   |                                                             |
-|                                                                                   | 5.  Pruebas no paramétricas                                 |
-+-----------------------------------------------------------------------------------+-------------------------------------------------------------+
-| Módulo 6: Conceptos básicos en creación de reportes y gráficos profesionales en R | 1.  Formato de tablas                                       |
-|                                                                                   |                                                             |
-| Duración: 2.5 horas                                                               | 2.  Formato de figuras                                      |
-|                                                                                   |                                                             |
-|                                                                                   | 3.  Introducción a Quarto                                   |
-+-----------------------------------------------------------------------------------+-------------------------------------------------------------+
++-----------------------------------------------------------------------------------+------------------------------------------------------+
+| Módulo                                                                            | Contenido                                            |
++===================================================================================+======================================================+
+| Módulo 1: Generalidades e Introducción a R                                        | 1.  Generalidades                                    |
+|                                                                                   |                                                      |
+| Duración: 3 horas                                                                 | 2.  Introducción a R                                 |
+|                                                                                   |                                                      |
+|                                                                                   | 3.  Instalación de R y RStudio                       |
+|                                                                                   |                                                      |
+|                                                                                   | 4.  Tipos de datos en R                              |
+|                                                                                   |                                                      |
+|                                                                                   | 5.  Operadores básicos                               |
+|                                                                                   |                                                      |
+|                                                                                   | 6.  Tipos de objetos en R                            |
+|                                                                                   |                                                      |
+|                                                                                   | 7.  Paquetes y librerías                             |
+|                                                                                   |                                                      |
+|                                                                                   | 8.  Ayuda en R                                       |
+|                                                                                   |                                                      |
+|                                                                                   | 9.  Operaciones básicas                              |
+|                                                                                   |                                                      |
+|                                                                                   | 10. Operaciones estadísticas básicas                 |
+|                                                                                   |                                                      |
+|                                                                                   | 11. Estadísticos descriptivos y tablas de frecuencia |
++-----------------------------------------------------------------------------------+------------------------------------------------------+
+| Módulo 2: Introducción al `tidyverse`                                             | 1.  Tipos de tablas                                  |
+|                                                                                   |                                                      |
+| Duración: 2 horas                                                                 | 2.  Tidy data                                        |
+|                                                                                   |                                                      |
+|                                                                                   | 3.  El `tidyverse`                                   |
+|                                                                                   |                                                      |
+|                                                                                   | 4.  Importación y exportación de datos               |
+|                                                                                   |                                                      |
+|                                                                                   | 5.  Operaciones con tablas de datos                  |
++-----------------------------------------------------------------------------------+------------------------------------------------------+
+| Módulo 3: Visualización de datos con `ggplot2`                                    | 1.  Introducción                                     |
+|                                                                                   |                                                      |
+| Duración: 5 horas                                                                 | 2.  Función de mapeo                                 |
+|                                                                                   |                                                      |
+|                                                                                   | 3.  Geometrías                                       |
+|                                                                                   |                                                      |
+|                                                                                   | 4.  Agrupamiento                                     |
+|                                                                                   |                                                      |
+|                                                                                   | 5.  Escalas y facetas                                |
+|                                                                                   |                                                      |
+|                                                                                   | 6.  Etiquetas                                        |
+|                                                                                   |                                                      |
+|                                                                                   | 7.  Estilos predeterminados                          |
+|                                                                                   |                                                      |
+|                                                                                   | 8.  Figuras como objetos                             |
+|                                                                                   |                                                      |
+|                                                                                   | 9.  Librería `patchwork`                             |
+|                                                                                   |                                                      |
+|                                                                                   | 10. Tipos básicos de figuras                         |
+|                                                                                   |                                                      |
+|                                                                                   | 11. Análisis exploratorio                            |
++-----------------------------------------------------------------------------------+------------------------------------------------------+
+| Módulo 4: Introducción a la estadística en R                                      | 1.  Conceptos básicos en estadística                 |
+|                                                                                   |                                                      |
+| Duración: 7 horas                                                                 | 2.  Principios básicos de diseño de experimentos     |
+|                                                                                   |                                                      |
+|                                                                                   | 3.  Pruebas t                                        |
+|                                                                                   |                                                      |
+|                                                                                   | 4.  Análisis de varianza                             |
+|                                                                                   |                                                      |
+|                                                                                   | 5.  Pruebas no paramétricas                          |
++-----------------------------------------------------------------------------------+------------------------------------------------------+
+| Módulo 5: Conceptos básicos en creación de reportes y gráficos profesionales en R | 1.  Proyectos en RStudio                             |
+|                                                                                   |                                                      |
+| Duración: 2.5 horas                                                               | 2.  Introducción a Quarto                            |
++-----------------------------------------------------------------------------------+------------------------------------------------------+
+| Módulo 6: Buenas prácticas de programación                                        | 1.  Consejos para programar                          |
+|                                                                                   |                                                      |
+| Duración: 0.5 horas                                                               |                                                      |
++-----------------------------------------------------------------------------------+------------------------------------------------------+
