@@ -26,4 +26,4 @@ Cabe recalcar que en términos de las capacidades de análisis entre Python y R,
 
 ## Acerca del instructor
 
-Soy Científico Bioestadístico en Bayer Crop Science, Doctor en Bioinformática, Máster en Estadística e Ingeniero en Biotecnología. Llevo programando en R desde el 2012 cuando comencé mi viaje por el mundo de la estadística. He trabajado como consultor independiente, educador, analista de estadísticas, doctorante y postdoc.
+Soy Científico Bioestadístico en Bayer CropScience, Doctor en Bioinformática, Máster en Estadística e Ingeniero en Biotecnología. Llevo programando en R desde el 2012 cuando comencé mi viaje por el mundo de la estadística. He trabajado como consultor independiente, educador, analista de estadísticas, doctorante y postdoc.
