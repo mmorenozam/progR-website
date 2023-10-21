@@ -39,7 +39,7 @@
     "href": "index.html#contenidos-del-curso",
     "title": "Introducción a la visualización de datos y creación de reportes en R",
     "section": "Contenidos del curso",
-    "text": "Contenidos del curso\n\n\n\n\n\n\n\nMódulo\nContenido\n\n\n\n\nMódulo 1: Generalidades e Introducción a R\nDuración: 3 horas\n\nGeneralidades\nIntroducción a R\nInstalación de R y RStudio\nTipos de datos en R\nOperadores básicos\nTipos de objetos en R\nPaquetes y librerías\nAyuda en R\nOperaciones básicas\nOperaciones estadísticas básicas\nEstadísticos descriptivos y tablas de frecuencia\n\n\n\nMódulo 2: Introducción al tidyverse\nDuración: 2 horas\n\nTipos de tablas\nTidy data\nEl tidyverse\nImportación y exportación de datos\nOperaciones con tablas de datos\n\n\n\nMódulo 3: Visualización de datos con ggplot2\nDuración: 5 horas\n\nIntroducción\nFunción de mapeo\nGeometrías\nAgrupamiento\nEscalas y facetas\nEtiquetas\nEstilos predeterminados\nFiguras como objetos\nLibrería patchwork\nTipos básicos de figuras\nAnálisis exploratorio\n\n\n\nMódulo 4: Introducción a la estadística en R\nDuración: 7 horas\n\nConceptos básicos en estadística\nPrincipios básicos de diseño de experimentos\nPruebas t\nAnálisis de varianza\nPruebas no paramétricas\n\n\n\nMódulo 5: Conceptos básicos en creación de reportes y gráficos profesionales en R\nDuración: 2.5 horas\n\nProyectos en RStudio\nIntroducción a Quarto\n\n\n\nMódulo 6: Buenas prácticas de programación\nDuración: 0.5 horas\n\nConsejos para programar"
+    "text": "Contenidos del curso\n\n\n\n\n\n\n\nMódulo\nContenido\n\n\n\n\nMódulo 1: Generalidades e Introducción a R\nDuración: 3 horas\n\nGeneralidades\nIntroducción a R\nInstalación de R y RStudio\nTipos de datos en R\nOperadores básicos\nTipos de objetos en R\nPaquetes y librerías\nAyuda en R\nOperaciones básicas\nOperaciones estadísticas básicas\nEstadísticos descriptivos y tablas de frecuencia\n\n\n\nMódulo 2: Introducción al tidyverse\nDuración: 2 horas\n\nTipos de tablas\nTidy data\nEl tidyverse\nImportación y exportación de datos\nOperaciones con tablas de datos\n\n\n\nMódulo 3: Visualización de datos con ggplot2\nDuración: 5 horas\n\nIntroducción\nFunción de inicio\nGeometrías\nEstéticas de geometrías\nFormato de figuras\nAnálisis Exploratorio\n\n\n\nMódulo 4: Introducción a la estadística en R\nDuración: 7 horas\n\nConceptos básicos en estadística\nPrincipios básicos de diseño de experimentos\nPruebas t\nAnálisis de varianza\nPruebas no paramétricas\n\n\n\nMódulo 5: Conceptos básicos en creación de reportes y gráficos profesionales en R\nDuración: 2.5 horas\n\nProyectos en RStudio\nIntroducción a Quarto\n\n\n\nMódulo 6: Buenas prácticas de programación\nDuración: 0.5 horas\n\nConsejos para programar"
   },
   {
     "objectID": "about.html",
@@ -74,7 +74,7 @@
     "href": "materiales.html",
     "title": "Materiales y recursos",
     "section": "",
-    "text": "Tablas de datos complementarias del curso:\n\n\n\nNombre\nDescripción\n\n\n\n\nrotXLS.xlsx\nDatos históricos de casos de rotavirus y variables ambientales de la ciudad de Berlin\n\n\ntitatic.csv\nDatos de sobrevivientes del Titanic en varios niveles de agregación (ejemplo, por género)\n\n\ntouchon.csv\nDatos de depredadores de la rana arbórea de ojos rojos (investigación del Prof. Justin C. Touchon)\n\n\n\nSe encuentran disponibles AQUI"
+    "text": "Las sesiones grabadas se encuentran disponibles AQUI."
   },
   {
     "objectID": "materiales.html#libros-gratis",
