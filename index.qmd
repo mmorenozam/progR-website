@@ -87,25 +87,15 @@ Recomendados:
 +-----------------------------------------------------------------------------------+------------------------------------------------------+
 | Módulo 3: Visualización de datos con `ggplot2`                                    | 1.  Introducción                                     |
 |                                                                                   |                                                      |
-| Duración: 5 horas                                                                 | 2.  Función de mapeo                                 |
+| Duración: 5 horas                                                                 | 2.  Función de inicio                                |
 |                                                                                   |                                                      |
 |                                                                                   | 3.  Geometrías                                       |
 |                                                                                   |                                                      |
-|                                                                                   | 4.  Agrupamiento                                     |
+|                                                                                   | 4.  Estéticas de geometrías                          |
 |                                                                                   |                                                      |
-|                                                                                   | 5.  Escalas y facetas                                |
+|                                                                                   | 5.  Formato de figuras                               |
 |                                                                                   |                                                      |
-|                                                                                   | 6.  Etiquetas                                        |
-|                                                                                   |                                                      |
-|                                                                                   | 7.  Estilos predeterminados                          |
-|                                                                                   |                                                      |
-|                                                                                   | 8.  Figuras como objetos                             |
-|                                                                                   |                                                      |
-|                                                                                   | 9.  Librería `patchwork`                             |
-|                                                                                   |                                                      |
-|                                                                                   | 10. Tipos básicos de figuras                         |
-|                                                                                   |                                                      |
-|                                                                                   | 11. Análisis exploratorio                            |
+|                                                                                   | 6.  Análisis Exploratorio                            |
 +-----------------------------------------------------------------------------------+------------------------------------------------------+
 | Módulo 4: Introducción a la estadística en R                                      | 1.  Conceptos básicos en estadística                 |
 |                                                                                   |                                                      |
