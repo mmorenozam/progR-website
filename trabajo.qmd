@@ -20,7 +20,7 @@ title: "Trabajo final"
 
 -   Para quiénes opten por crear un reporte que incluya el análisis de datos, les animo a utilizar datos propios.
 
--   En caso de no contar datos propios, les recomiendo utilizar tablas de datos que hemos visto o mencionado durante el curso. En orden ascendente (de menor a mayor complejidad en su análisis) les enlisto las siguientes:
+-   En caso de no contar datos propios, les recomiendo utilizar tablas de datos que hemos visto o mencionado durante el curso y de las cuales no hemos llevado a cabo muchos análisis. En orden ascendente (de menor a mayor complejidad en su análisis) les enlisto las siguientes:
 
 1.    `iris` y `mtcars` de R de base: son dos tablas que pueden encontrar cientos de ejemplos de su análisis en tutoriales en el internet.
 
@@ -28,9 +28,9 @@ title: "Trabajo final"
 
 3.    Los datos de rotavirus en Berlín (archivo rotXLS.xlsx dados en este curso): corresponden a series de tiempo y los métodos de análisis apropiados para este tipo de datos no es parte del curso. De escoger esta tabla de datos, sean creativos en los análisis que deseen llevar a cabo (no juzgaré si usan o no la metodología correcta).
 
-4.    Los datos de las ranas de Touchon (archivo touchon.csv dados en este curso): estos datos son un poco más complejos por cuanto se deberían considerar muchos supuestos de Estadística para su correcto análisis (que son parte superficial del contenido estadístico del curso). Igualmente que la anterior, les invito a ser creativos en sus análisis si escogen esta tabla.
+<!-- 4.    Los datos de las ranas de Touchon (archivo touchon.csv dados en este curso): estos datos son un poco más complejos por cuanto se deberían considerar muchos supuestos de Estadística para su correcto análisis (que son parte superficial del contenido estadístico del curso). Igualmente que la anterior, les invito a ser creativos en sus análisis si escogen esta tabla. -->
 
-Finalmente, les dejo otra tabla de datos también interesante, que en nivel de complejidad de su análisis la pondría entre los números 2 y 3 de arriba: 
+4.    Finalmente, les dejo otra tabla de datos también interesante:
 
 ## Carpitas rinconeras
 
