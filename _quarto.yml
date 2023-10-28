@@ -14,6 +14,7 @@ website:
       - href: index.qmd
         text: Inicio
       - materiales.qmd
+      - trabajo.qmd
       - text: Módulos
         menu:
           - text: "Módulo 1"
@@ -26,7 +27,7 @@ website:
             href: "https://mmorenozam.github.io/progR_modulo3/"
             target: "_blank"
           - text: "Módulo 4"
-            href: "https://mmorenozam.github.io/uce2023-modulo/"
+            href: "https://mmorenozam.github.io/progR_modulo4/"
             target: "_blank"
           - text: "Módulo 5"
             href: "https://mmorenozam.github.io/uce2023-modulos/"
