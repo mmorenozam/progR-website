@@ -4,11 +4,9 @@ title: "Introducción a la visualización de datos y creación de reportes en R"
 
 Curso online organizado por la Universidad Central del Ecuador, Octubre/Noviembre de 2023
 
-**Página actualizada el 28.10.2023**
+**Página actualizada el 29.10.2023**
 
 ## Anuncios
-
--   [**A pesar de los cortes de energía que están sucediendo, hemos decidido mantener los cursos con los asistentes que cuenten con energía en el horario establecido. Las clases las grabaré desde acá en Alemania y las pondré inmediatamente a su disposición aquí para que puedan ponerse al día.**]{style="color:red;"}
 
 -   [La fecha de entrega del trabajo final al correo mmorenozambrano@protonmail.com será hasta el 25 de Noviembre. Para mayores detalles por favor visiten la pestaña "Trabajo final".]{style="color:red;"}
 
