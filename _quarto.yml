@@ -33,7 +33,7 @@ website:
             href: "https://mmorenozam.github.io/progR_modulo5/"
             target: "_blank"
           - text: "Módulo 6"
-            href: "https://mmorenozam.github.io/uce2023-modulos/"
+            href: "https://mmorenozam.github.io/progR_modulo6/"
             target: "_blank"
       - href: about.qmd
         text: Acerca
