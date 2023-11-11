@@ -11,7 +11,7 @@ Las sesiones grabadas se encuentran disponibles [**AQUI**](https://uceedu-my.sha
 Tablas de datos complementarias del curso:
 
 | Nombre      | Descripción                                                                                                                                                  |
-|---------------------|---------------------------------------------------|
+|----------------------|--------------------------------------------------|
 | rotXLS.xlsx | Datos históricos de casos de rotavirus y variables ambientales de la ciudad de Berlin                                                                        |
 | titatic.csv | Datos de sobrevivientes del Titanic en varios niveles de agregación (ejemplo, por género)                                                                    |
 | touchon.csv | Datos de depredadores de la rana arbórea de ojos rojos (investigación del [Prof. Justin C. Touchon](https://www.jstor.org/stable/23436298){target="_blank"}) |
@@ -20,12 +20,10 @@ Se encuentran disponibles [**AQUI**](https://drive.google.com/file/d/1hy542F5j9O
 
 # Plantillas de Quarto
 
-| Nombre               | Descripción                                                                                  |
-|---------------------|---------------------------------------------------|
-| autoevaluaciones.qmd | Plantilla para responder a las preguntas hechas en las autoevaluaciones a lo largo del curso |
-| ejemplo_reporte.qmd  | Ejemplo de creación de un reporte en Quarto con un caso de estudio                           |
-
-Se encuentran disponibles **AQUI**
+| Nombre                                                                                                       | Descripción                                                                                  |
+|----------------------|--------------------------------------------------|
+| [autoevaluaciones.qmd](https://raw.githubusercontent.com/mmorenozam/progR-website/main/autoevaluaciones.qmd) | Plantilla para responder a las preguntas hechas en las autoevaluaciones a lo largo del curso |
+| [ejemplo_reporte.qmd](https://raw.githubusercontent.com/mmorenozam/progR-website/main/ejemplo_reporte.qmd)   | Ejemplo de creación de un reporte en Quarto con un caso de estudio                           |
 
 # Recursos extras
 

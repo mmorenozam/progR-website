@@ -10,6 +10,8 @@ title: "Trabajo final"
 
 -   El análisis de ya sea datos de su autoría o de cualquier otra tabla de datos es **opcional**.
 
+-   **En el caso de analizar tus propios datos, NO es necesario presentar las respuestas de las autoevaluaciones**.
+
 # Formato
 
 -   El formato de entrega será en archivo de extensión html o docx (pdf no recomendado).
