@@ -11,12 +11,21 @@ Las sesiones grabadas se encuentran disponibles [**AQUI**](https://uceedu-my.sha
 Tablas de datos complementarias del curso:
 
 | Nombre      | Descripción                                                                                                                                                  |
-|-------------------|-----------------------------------------------------|
+|---------------------|---------------------------------------------------|
 | rotXLS.xlsx | Datos históricos de casos de rotavirus y variables ambientales de la ciudad de Berlin                                                                        |
 | titatic.csv | Datos de sobrevivientes del Titanic en varios niveles de agregación (ejemplo, por género)                                                                    |
 | touchon.csv | Datos de depredadores de la rana arbórea de ojos rojos (investigación del [Prof. Justin C. Touchon](https://www.jstor.org/stable/23436298){target="_blank"}) |
 
 Se encuentran disponibles [**AQUI**](https://drive.google.com/file/d/1hy542F5j9OsucWlr8m_R9OaX4lRdDTc1/view){target="_blank"}
+
+# Plantillas de Quarto
+
+| Nombre               | Descripción                                                                                  |
+|---------------------|---------------------------------------------------|
+| autoevaluaciones.qmd | Plantilla para responder a las preguntas hechas en las autoevaluaciones a lo largo del curso |
+| ejemplo_reporte.qmd  | Ejemplo de creación de un reporte en Quarto con un caso de estudio                           |
+
+Se encuentran disponibles **AQUI**
 
 # Recursos extras
 
@@ -37,7 +46,6 @@ Se encuentran disponibles [**AQUI**](https://drive.google.com/file/d/1hy542F5j9O
 [towards data science](https://towardsdatascience.com/){target="_blank"}
 
 [STHDA](http://www.sthda.com/english/){target="_blank"}
-
 
 # Autoevaluaciones corregidas
 

@@ -12,7 +12,7 @@ title: "Trabajo final"
 
 # Formato
 
--   El formato de entrega será en archivo de extensión .pdf.
+-   El formato de entrega será en archivo de extensión html o docx (pdf no recomendado).
 
 -   Durante el transcurso de la última clase (11.11.2023) compartiré un template de Quarto sobre el cual podrán llevar a cabo su trabajo.
 

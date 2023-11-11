@@ -1,0 +1,683 @@
+---
+title: "Autoevaluaciones Template"
+format: html
+author: "Mauricio Moreno"
+toc: true
+---
+
+```{r}
+#| echo: false
+#| eval: true
+#| warning: false
+#| message: false
+#| error: false
+library(dplyr)
+library(tidyr)
+library(palmerpenguins)
+library(ggplot2)
+library(ggsci)
+
+```
+
+# Template para contestar las autoevaluaciones
+
+## Instrucciones
+
+**Lee cuidadosamente las siguientes instrucciones, para la entrega final del reporte, borra las mismas (desde la linea 21 hasta la linea 47) y entrega unicamente desde el apartado de Autoevaluacion \# 1. En el caso de no hacerlo, deducire 10% de la nota final del trabajo.**
+
+Utiliza este template para responder las preguntas de las autoevaluaciones que hemos ido contestando a lo largo del curso.
+
+Para ello, investiga de que manera puedes resaltar las respuestas (tip: usa el editor visual de Quarto, en la barra de herramientas, bajo la opcion formato busca como puedes hacer notar tu respuesta).
+
+En el caso de que la respuesta no conste en el listado de opciones, indica cual es la respuesta correcta.
+
+**En el encabezado de este documento cambia acordemente el author por tu nombre.**
+
+**El formato de entrega del reporte es de tu eleccion**. Recomiendo entre html o docx, ya que dar formato en pdf es especialmente dificil.
+
+## IMPORTANTE!
+
+Para la entrega del reporte, comprime en un archivo zip o rar toda la carpeta de tu proyecto y enviala a mi correo. Necesito ver como modificaste el codigo y si el trabajo renderizado corresponde al mismo.
+
+## Calificacion
+
+La nota maxima de este trabajo es de 100%. La nota minima para aprobar el curso es de 70%.
+
+La valoracion de cada Autoevaluacion (A) es la siguiente:
+
+|        |        |        |        |        |        |        |        |        |        |         |         |         |          |
+|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|---------|---------|---------|----------|
+|        | **A1** | **A2** | **A3** | **A4** | **A5** | **A6** | **A7** | **A8** | **A9** | **A10** | **A11** | **A12** | **A13**  |
+| **%**  | 5      | 5      | 5      | 5      | 5      | 5      | 5      | 10     | 5      | 10      | 10      | 5       | 25       |
+
+## Fecha de entrega
+
+La fecha maxima de entrega de este trabajo es hasta la media noche del 25 de Noviembre del 2023.
+
+# Autoevaluacion \# 1
+
++--------------------------------------------------------------------------------+-------------+
+| 1.  Los creadores de R, fueron Gentleman e Ihaka de la universidad de Auckland | V / F       |
++--------------------------------------------------------------------------------+-------------+
+| 2.  `5 * 5 * 5` es equivalente a `5 ^ 3`                                       | V / F       |
++--------------------------------------------------------------------------------+-------------+
+| 3.  Una lista es un arreglo que admite datos de una sola clase únicamente      | V / F       |
++--------------------------------------------------------------------------------+-------------+
+| 4.  Queremos comparar si `x` es igual a `5`, es esto correcto:`x = 5`          | V / F       |
++--------------------------------------------------------------------------------+-------------+
+| 5.  La función `data.frame` nos permite crear manualmente tablas de datos      | V / F       |
++--------------------------------------------------------------------------------+-------------+
+
++----------------------------------------------------------------------------------+-------------+
+| 6.  Al crear un objeto de esta forma: `1_cuenta = 12` R lo crea sin error alguno | V / F       |
++----------------------------------------------------------------------------------+-------------+
+| 7.  Si dejo un espacio en el nombre de un objeto, R me devuelve un error         | V / F       |
++----------------------------------------------------------------------------------+-------------+
+| 8.  El comando `install.libraries` me permite instalar librerías                 | V / F       |
++----------------------------------------------------------------------------------+-------------+
+| 9.  En la expresión genérica `mean(x, . . .)` los puntos representan argumentos  | V / F       |
++----------------------------------------------------------------------------------+-------------+
+| 10. Es la siguiente expresión correcta: `z -> c(1, 2, 3)`                        | V / F       |
++----------------------------------------------------------------------------------+-------------+
+
+En tu computador, ejecuta en el prompt la siguiente línea de código:
+
+`?sd`.
+
++---------------------------------------------------------------------------------+-------------+
+| 11. `x` es un argumento de la función                                           | V / F       |
++---------------------------------------------------------------------------------+-------------+
+| 12. `na.rm` es otro argumento de la función                                     | V / F       |
++---------------------------------------------------------------------------------+-------------+
+| 13. `na.rm` le dice a la función `sd` que **NO** remueva observaciones perdidas | V / F       |
++---------------------------------------------------------------------------------+-------------+
+| 14. `sd` es la función de la librería `base` que calcula la desviación estándar | V / F       |
++---------------------------------------------------------------------------------+-------------+
+
+# Autoevaluación \# 2
+
+Dado el siguiente objeto:
+
+```{r echo=T, eval=F, error=F}
+ev_1 <- list(tabla_de_datos = data.frame(columna_1 = c(0.2, 2.5, 3.14, 4.15, 5.55),
+                                         columna_2 = c("A", "B", "C", "D", "E"),
+                                         columna_3 = c("1985-10-14", "2021-12-25", "2023-01-01", "1999-05-06", "1900-01-02")),
+             vector_ejemplo = c("F", "T", "F", "T","F"),
+             escalar_ejemplo = 100)
+```
+
+1)  Es el elemento `vector_ejemplo` conformado por valores: Lógicos/caracteres
+
+2)  Para acceder a la **tercera fila** de la **primera columna** del elemento `tabla_de_datos`, ¿Cuál(es) de las siguientes líneas de código es(son) la(s) correcta(s)?
+
+```{r echo=T, eval=F, error=T}
+ev_1$tabla_de_datos[[1]]
+ev_1$tabla_de_datos[1, 3]
+ev_1[[1]][3, 1]
+ev_1$tabla_de_datos$columna_2[3]
+ev_1[[2]][3, 1]
+ev_1$tabla_de_datos$columna_1[3]
+```
+
+3)  Deseo concatenar los elementos `escalar_ejemplo` con `vector_ejemplo` (en ese orden) en un elemento adicional del objeto `ev_1` de nombre `conc_ejemplo`, ¿Cuál de las siguientes líneas de código es la correcta?
+
+```{r echo=T, eval=F, error=T}
+ev_1[[4]] <- ev_1[[2]] + ev_1[[3]]
+ev_1$conc_ejemplo <- c(ev_1[[3]],ev_1[[2]])
+ev_1$conc_ejemplo <- c(ev_1$vector_escalar + ev_1$ejemplo_escalar)
+```
+
+4)  Deseo reemplazar el cuarto elemento de `columna_2` en la `tabla_de_datos` por la letra `"E"`, ¿Cuál sería una solución?
+
+5)  Supongamos que para un determinado análisis con `tabla_de_datos`, la `columna_2` corresponde a mi factor. En este factor mi nivel de referencia es "E". ¿Cómo especifico en R que este sea el caso?
+
+6)  La variable `columna_3` de `tabla_de_datos` denota fechas, ¿Cómo darías el formato adecuado para que R la interprete como tal?
+
+# Autoevaluación \# 3
+
++----------------------------------------------------------------------------------------+------------+
+| 1.  El coeficiente de variación es adimensional                                        | V / F      |
++----------------------------------------------------------------------------------------+------------+
+| 2.  La media poblacional se aproxima a la media muestral con una corrección            | V / F      |
++----------------------------------------------------------------------------------------+------------+
+| 3.  La desv. est. muestral es un estimador de la poblacional después de una corrección | V / F      |
++----------------------------------------------------------------------------------------+------------+
+| 4.  La moda es igual al valor medio de una distribución                                | V / F      |
++----------------------------------------------------------------------------------------+------------+
+| 5.  El primer cuartil corresponde al 50% de probabilidad de una distribución           | V / F      |
++----------------------------------------------------------------------------------------+------------+
+
+Usando la variable `disp` de `mtcars`:
+
++--------------------------------------------+---------------+
+| 6.  La media aritmética es igual a         | a\) 220.9     |
+|                                            |               |
+|                                            | b\) 139.0     |
+|                                            |               |
+|                                            | c\) 230.7     |
+|                                            |               |
+|                                            | d\) 401.2     |
++--------------------------------------------+---------------+
+| 7.  La desviación estándar es igual a      | a\) 33.1      |
+|                                            |               |
+|                                            | b\) 123.9     |
+|                                            |               |
+|                                            | c\) 120.2     |
+|                                            |               |
+|                                            | d\) 210.7     |
++--------------------------------------------+---------------+
+| 8.  La varianza es igual a                 | a\) 1095.6    |
+|                                            |               |
+|                                            | b\) 15360.8   |
+|                                            |               |
+|                                            | c\) 14448.0   |
+|                                            |               |
+|                                            | d\) 44394.5   |
++--------------------------------------------+---------------+
+| 9.  El tercer cuartil es                   | a\) 71.1      |
+|                                            |               |
+|                                            | b\) 120.8     |
+|                                            |               |
+|                                            | c\) 196.3     |
+|                                            |               |
+|                                            | d\) 326.0     |
++--------------------------------------------+---------------+
+| 10. El coeficiente de variación es         | a\) 0.45      |
+|                                            |               |
+|                                            | b\) 0.15      |
+|                                            |               |
+|                                            | c\) 0.54      |
+|                                            |               |
+|                                            | d\) 0.82      |
++--------------------------------------------+---------------+
+
+# Autoevaluación \# 4
+
+Carga los datos de base `iris` y aparea los siguientes literales
+
++-----------------------------------------------------+---------------+
+| a\) Media aritmética de `Sepal.Length`              | a\) 66.67%    |
+|                                                     |               |
+| b\) Número total de observaciones                   | b\) 150       |
+|                                                     |               |
+| c\) Desv. Est. de `Petal.Width`                     | c\) 0.33      |
+|                                                     |               |
+| d\) Valor mínimo de `Sepal.Width`                   | d\) 5.84      |
+|                                                     |               |
+| e\) Frecuencia relativa de la especie `setosa`      | e\) 2         |
+|                                                     |               |
+| f\) Frecuencia acumulada hasta especie `versicolor` | f\) 0.762     |
++-----------------------------------------------------+---------------+
+
+# Autoevaluación \# 5
+
++-----------------------------------------------------------------------------------------------------+-----------+
+| 1.  El operador de cascada de base R es `|>`                                                        | V/F       |
++-----------------------------------------------------------------------------------------------------+-----------+
+| 2.  Este es un buen nombre para un objeto en R: `Ingresos Anuales`                                  | V/F       |
++-----------------------------------------------------------------------------------------------------+-----------+
+| 3.  Cuando digo que una tabla está en formato largo, puedo decir que es rectangular                 | V/F       |
++-----------------------------------------------------------------------------------------------------+-----------+
+| 4.  `Z` es una función, `Y` es un objeto. Con la expr. `Y(Z)` estoy evaluando `Y` en función de `Z` | V/F       |
++-----------------------------------------------------------------------------------------------------+-----------+
+| 5.  La tabla de datos `msleep` se refiere a las horas de sueño de mamíferos                         | V/F       |
++-----------------------------------------------------------------------------------------------------+-----------+
+
++----------------------------------------------------------------------------------------------------------------+-----------+
+| 6.  Estas expresiones dan el mismo resultado:                                                                  | V/F       |
+|                                                                                                                |           |
+| `msleep %>% filter(order == "Primates" | sleep_total >= 10)`                                                   |           |
+|                                                                                                                |           |
+| `msleep %>% filter(order == "Primates", sleep_total >= 10)`                                                    |           |
++----------------------------------------------------------------------------------------------------------------+-----------+
+| 7.  Esta expresión filtra la tabla `iris` excluyendo la categoría `virginica` de la columna `Species`          | V/F       |
+|                                                                                                                |           |
+| `iris %>% filter(Species != "virginica")`                                                                      |           |
++----------------------------------------------------------------------------------------------------------------+-----------+
+| 8.  En la anterior expresión **NO** estoy haciendo cambios en la tabla `iris`                                  | V/F       |
++----------------------------------------------------------------------------------------------------------------+-----------+
+| 9.  Deseo calcular la suma de `Petal.Width` por `Species` de la tabla iris. Es correcta la siguiente expresión | V/F       |
+|                                                                                                                |           |
+| `iris %>% filter(Species) %>% summarize(suma = sum())`                                                         |           |
++----------------------------------------------------------------------------------------------------------------+-----------+
+
+# Autoevaluación \# 6
+
++-----------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
+| 1.  La tabla de datos `airquality` trata de                                       | a\) Medidas de calidad de aire en Nueva York                                       |
+|                                                                                   |                                                                                    |
+|                                                                                   | b\) Medidas de contaminación de aire                                               |
+|                                                                                   |                                                                                    |
+|                                                                                   | c\) Medidas de presión atmosférica en UK                                           |
++-----------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
+| 2.  ¿Por qué debemos cambiar `\` por `/` en R?                                    | a\) Da igual, no es necesario                                                      |
+|                                                                                   |                                                                                    |
+|                                                                                   | b\) Puede provocar errores porque `\` es usado para caracteres especiales          |
+|                                                                                   |                                                                                    |
+|                                                                                   | c\) Solo es necesario en Windows                                                   |
++-----------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
+| 3.  En la función `write.csv`, si el argumento `row.names` no es seteado como `F` | a\) El archivo .csv creado contendrá una columna extra indicando el número de fila |
+|                                                                                   |                                                                                    |
+|                                                                                   | b\) El separador de columnas será el punto y coma en lugar de la coma              |
+|                                                                                   |                                                                                    |
+|                                                                                   | c\) No pasa nada                                                                   |
++-----------------------------------------------------------------------------------+------------------------------------------------------------------------------------+
+
+`mtcars` es una tabla de base R.
+
++-------------------------------+--------------+
+| 4.  Esta tabla es rectangular | V/F          |
++-------------------------------+--------------+
+
+En el siguiente código:
+
+```{r echo=T, eval=F}
+tabla_cars <- mtcars
+head(tabla_cars)
+tabla_cars$marca <- row.names(tabla_cars)
+tabla_cars %>% 
+  pivot_longer(-c("marca"), 
+               names_to = "variable", 
+               values_to = "valores")
+```
+
++---------------------------------------------------------+-----------------------------------------------------------------------+
+| 5.  En la línea 1 estamos creando una copia de `mtcars` | V/F                                                                   |
++---------------------------------------------------------+-----------------------------------------------------------------------+
+| 6.  En la línea 3 estamos                               | a\) Cambiando los nombres de las columnas de `tabla_cars`             |
+|                                                         |                                                                       |
+|                                                         | b\) Extrayendo los nombres de las filas de `tabla_cars`               |
+|                                                         |                                                                       |
+|                                                         | c\) Creando una nueva variable con los nombres de las marcas de autos |
++---------------------------------------------------------+-----------------------------------------------------------------------+
+| 7.  En las líneas 4 a 7 estamos                         | a\) Transformando de formato largo a ancho                            |
+|                                                         |                                                                       |
+|                                                         | b\) Transformando de formato ancho a largo                            |
+|                                                         |                                                                       |
+|                                                         | c\) Preparando la tabla para exportar                                 |
++---------------------------------------------------------+-----------------------------------------------------------------------+
+| 8.  La expresión `-c("marca")` significa                | a\) Que estamos borrando la columna "marca" de `tabla_cars`           |
+|                                                         |                                                                       |
+|                                                         | b\) Que excluya "marca" del pivot                                     |
+|                                                         |                                                                       |
+|                                                         | c\) Ninguna de las anteriores                                         |
++---------------------------------------------------------+-----------------------------------------------------------------------+
+
+# Autoevaluación \# 7
+
+1)  `theme_light` produce gráficos como
+
+```{r echo=F, eval=T, fig.align = 'center', fig.width=16}
+#| warning: false
+#| message: false
+#| error: false
+library(patchwork)
+p1 <- ggplot(data = penguins,
+       mapping = aes(x = bill_length_mm, 
+                     y = bill_depth_mm,
+                     color = species)) +
+  geom_point(alpha = 0.25, size = 5) +
+  scale_color_futurama() +
+  facet_wrap(~island) +
+  geom_smooth(method = "lm") +
+  labs(title = "Largo de pico vs. Profundidad de pico",
+       subtitle = "Pingüinos de Palmer",
+       caption = "Gráfica propia",
+       x = "Largo del pico",
+       y = "Profundidad del pico",
+       color = "Especie") +
+  theme_bw()
+
+p2 <- ggplot(data = penguins,
+       mapping = aes(x = bill_length_mm, 
+                     y = bill_depth_mm,
+                     color = species)) +
+  geom_point(alpha = 0.25, size = 5) +
+  scale_color_futurama() +
+  facet_wrap(~island) +
+  geom_smooth(method = "lm") +
+  labs(title = "Largo de pico vs. Profundidad de pico",
+       subtitle = "Pingüinos de Palmer",
+       caption = "Gráfica propia",
+       x = "Largo del pico",
+       y = "Profundidad del pico",
+       color = "Especie") +
+  theme_minimal()
+
+p3 <- ggplot(data = penguins,
+       mapping = aes(x = bill_length_mm, 
+                     y = bill_depth_mm,
+                     color = species)) +
+  geom_point(alpha = 0.25, size = 5) +
+  scale_color_futurama() +
+  facet_wrap(~island) +
+  geom_smooth(method = "lm") +
+  labs(title = "Largo de pico vs. Profundidad de pico",
+       subtitle = "Pingüinos de Palmer",
+       caption = "Gráfica propia",
+       x = "Largo del pico",
+       y = "Profundidad del pico",
+       color = "Especie") +
+  theme_light()
+
+pq1 <- p1 + p2 + p3 + plot_annotation(tag_levels = "A")
+
+pq1
+
+```
+
+::: columns
+::: {.column width="50%"}
+2)  El siguiente gráfico
+
+```{r echo=F, eval=T, fig.align = 'center', fig.width=4}
+#| warning: false
+#| message: false
+#| error: false
+ggplot(iris, aes(y=Petal.Width)) + geom_boxplot(aes(fill=Species))
+```
+:::
+
+::: {.column width="50%"}
+Es producido por el(los) código(s):
+
+a)  
+
+```{r echo=T, eval=F, fig.align = 'center', fig.width=5}
+#| warning: false
+#| message: false
+#| error: false
+ggplot(iris, aes(y=Petal.Width)) + 
+  geom_boxplot(aes(fill=Species))
+```
+
+b)  
+
+```{r echo=T, eval=F, fig.align = 'center', fig.width=5}
+#| warning: false
+#| message: false
+#| error: false
+ggplot(iris, aes(y=Petal.Width, color=Species)) + 
+  geom_boxplot()
+```
+
+c)  
+
+```{r echo=T, eval=F, fig.align = 'center', fig.width=5}
+#| warning: false
+#| message: false
+#| error: false
+ggplot(iris, aes(y=Petal.Width, fill=Species)) + 
+  geom_boxplot()
+```
+:::
+:::
+
+::: columns
+::: {.column width="50%"}
+3)  Para obtener el siguiente gráfico:
+
+```{r echo=F, eval=T, fig.align = 'center', fig.height= 5}
+#| warning: false
+#| message: false
+#| error: false
+library(viridis)
+peval <- ggplot(data = penguins,
+       mapping = aes(x = bill_length_mm, 
+                     y = bill_depth_mm,
+                     color = species)) +
+  geom_point(alpha = 0.25, size = 5) +
+  scale_color_viridis(discrete = T, option = "H")
+peval
+```
+:::
+
+::: {.column width="50%"}
+Debo modificar la última línea del código:
+
+```{r echo=T, eval=F}
+#| warning: false
+#| message: false
+#| error: false
+ggplot(data = penguins,
+       mapping = aes(x = bill_length_mm, 
+                     y = bill_depth_mm,
+                     color = species)) +
+  geom_point(alpha = 0.25, size = 5) +
+  scale_color_viridis()
+```
+:::
+:::
+
+por:
+
+a)  `scale_color_viridis(option = "G")`
+
+b)  `scale_color_viridis(discrete = T, option = "G")`
+
+c)  `scale_color_viridis(discrete = T, option = "H")`
+
+# Autoevaluación \# 8
+
+[EN ESTA PREGUNTA, CARGA LA TABLA DE DATOS rotXLS.xlsx Y CAMBIA DE MANERA ACORDE LAS OPCIONES DE LOS CHUNKS DE CODIGO PARA QUE RENDERIZAR LAS FIGURAS TAL CUAL LA DIAPOSITIVA 26 DEL MODULO 3 DEL CURSO]{style="color:red;"}
+
+Los datos del archivo de excel "rotXLS.xlsx" que mencionamos brevemente en el segundo módulo contiene información sobre el conteo de casos de rotavirus en Berlín desde el año 2001 hasta el 2020. Las variables de esta tabla de datos son:
+
+::: columns
+::: {.column width="50%"}
+-   `date`: fecha de cierre de la toma de datos
+
+-   `cases`: número de casos de rotavirus en la semana
+
+-   `week`: semana epidemiológica
+
+-   `incidence`: número de casos/100000 habitantes
+
+-   `FM`: media diaria de velocidad del viento (m/s)
+
+-   `RSK`: media diaria de lluvia (mm)
+:::
+
+::: {.column width="50%"}
+-   `SHK_TAG`: media diaria de nieve (cm)
+
+-   `PM`: media diaria de presión atmosférica (hPa)
+
+-   `TMK`: media diaria de temperatura (°C)
+
+-   `TXK`: media diaria de temperatura máxima (°C)
+
+-   `TNK`: media diaria de temperatura mínima (°C)
+
+-   `UPM`: media diaria de humedad relativa (%)
+:::
+:::
+
+Una vez que hayamos especificado el directorio de trabajo, podemos importar esta tabla con el siguiente código:
+
+```{r echo=T, eval=F, fig.align = 'center'}
+library(readxl)                           
+rot_berlin <- read_excel("rotXLS.xlsx")
+```
+
+::: columns
+::: {.column width="50%"}
+1)  Ignorando por un momento la naturaleza longitudinal de estos datos, podemos crear un gráfico de múltiples cajas de bigotes por semana epidemiológica para el número de casos, que se vería de esta manera:
+:::
+
+::: {.column width="50%"}
+```{r echo=T, eval=F, fig.align = 'center'}
+ggplot(rot_berlin, aes(x = week, y = cases, group = week)) +
+  geom_boxplot()
+```
+:::
+:::
+
+Con el siguiente código:
+
+a)  
+
+```{r echo=T, eval=F,  fig.align = 'center'}
+ggplot(rot_berlin, aes(x = week, y = cases)) +
+  geom_boxplot()
+```
+
+b)  
+
+```{r echo=T, eval=F,  fig.align = 'center'}
+ggplot(rot_berlin, aes(x = factor(week), y = cases)) +
+  geom_boxplot()
+```
+
+c)  
+
+```{r echo=T, eval=F,  fig.align = 'center'}
+ggplot(rot_berlin, aes(x = week, y = cases, group = week)) +
+  geom_boxplot()
+```
+
+2)  Con lo que hemos aprendido hasta el momento, si quisiéramos identificar y remover posibles outliers, podríamos usar el siguiente código:
+
+```{r echo=T, eval=F,  fig.align = 'center'}
+out_rot <- boxplot(cases ~ factor(week), data = rot_berlin, plot = F)$out
+sub_rot <- rot_berlin
+sub_rot <- sub_rot[-which(sub_rot$cases %in% out_rot), ]
+```
+
+El número de outliers detectados es:
+
+::: columns
+::: {.column width="25%"}
+a)  232
+:::
+
+::: {.column width="25%"}
+b)  323
+:::
+
+::: {.column width="25%"}
+c)  156
+:::
+
+::: {.column width="25%"}
+d)  212
+:::
+:::
+
+::: columns
+::: {.column width="50%"}
+3)  Mirando el gráfico de cajas y bigotes de `sub_rot`, podríamos llevar a cabo sucesivas nuevas identificaciones y remociones de outliers hasta terminar con un gráfico ya sin puntos fuera de los RIC. Teniendo en cuenta esto, cuál(es) de las siguientes afirmaciones es(son) verdadera(s)
+:::
+
+::: {.column width="50%"}
+```{r echo=T, eval=F,  fig.align = 'center'}
+ggplot(sub_rot, aes(x = week, y = cases, group = week)) +
+  geom_boxplot()
+```
+:::
+:::
+
+a)  No importa cuántas veces repita el proceso, eliminar todo outlier es una buena práctica
+
+b)  Al eliminar un outlier, no hay garantía que otra observación se convierta en uno.
+
+c)  Se aconsejaría remover outliers una sola vez, y continuar con los análisis.
+
+d)  Parecería que el RIC no sería un criterio suficiente para remover outliers.
+
+# Autoevaluación \# 9
+
+La concentración media de glucosa en ratones sanos se ha estimado en un rango entre 80 y 100 mg/dL. En un experimento, se han medido las siguientes concentraciones de glucosa en 10 ratones de una línea genética se presume tendría potencial de ser modelo de hiperglucemia después de unas cuantas más generaciones de cruce selectivo:
+
+```{r echo=T, eval=F, error=T}
+glc_rat <- c(108.7, 93.7, 52.7, 79.0, 74.7, 131.9, 99.5, 63.3, 98.6, 92.7)
+```
+
+::: columns
+::: {.column width="70%"}
+1.  La media aritmética $\overline{X}$ de la muestra es:
+:::
+
+::: {.column width="30%"}
+a)  89.5
+b)  85.5
+c)  91.8
+d)  100.1
+:::
+:::
+
+::: columns
+::: {.column width="70%"}
+2.  La desviación de estándar $s$ de la muestra es
+:::
+
+::: {.column width="30%"}
+a)  30.6
+b)  18.0
+c)  15.6
+d)  22.7
+:::
+:::
+
+::: columns
+::: {.column width="70%"}
+3.  El intervalo de confianza (bajo la distribución de Student) es
+:::
+
+::: {.column width="30%"}
+a)  \[81.4, 95.3\]
+b)  \[80.4, 97.3\]
+c)  \[83.7, 95.3\]
+d)  \[83.7, 100.3\]
+:::
+:::
+
+# Autoevaluación \# 10
+
+En esta autoevaluación, usaremos tablas de datos del paquete `UsingR` y `datarium`:
+
+1)  La tabla de datos `blood` (paquete `UsingR`) tiene las medidas de presión sistólica de sangre correspondientes a 15 pacientes (columna "machine"). De acuerdo al Centro de Prevención y Control de Enfermedades de los Estados Unidos (CDC), una presión sistólica saludable está por debajo de 120 mm Hg. Determina si la media de la muestra contenida en esta tabla de datos está por debajo de este valor sugerido por el CDC.
+
+```{r echo=T, eval=F}
+data(blood)
+blood
+```
+
+2)  La tabla de datos `normtemp` (paquete `UsingR`) tiene las medidas en grados Fahrenheit de temperatura corporal (columna "temperature" ) correspodientes a 65 mujeres y 65 hombres (columna "gender"). Determina si existe una diferencia entre las temperaturas corporales de hombres y mujeres.
+
+```{r echo=T, eval=F}
+data(normtemp)
+normtemp
+```
+
+3)  La tabla de datos `mice2` (paquete `datarium`) tiene las medidas del peso de 10 ratones antes y después de haber sido sometidos a una determinada dieta. Encuentra si existe una diferencia significativa en el peso de estos ratones antes y después del régimen de dieta al que fueron expuestos. ¿Ganaron o perdieron peso?
+
+```{r echo=T, eval=F}
+data(mice2)
+mice2
+```
+
+4)  En el paquete `UsingR` tenemos disponible una lista con 5 objetos bajo el nombre `cancer`. Esta contiene el tiempo de sobreviviencia en días de pacientes con distintos tipos de cáncer desde el momento de su diagnóstico hasta su deceso. Chequea si los datos correspondientes a cáncer de colon son normalmente distribuidos. Si no lo son, prueba si puedes normalizarlos usando alguna de las tres transformaciones que vimos. En el caso que más de una transformación funcione, ¿cuál escogerías para continuar con alguna prueba estadística, y por qué?
+
+**Tip: usa el siguiente código para extraer en un vector los datos de pacientes con cáncer de colon:**
+
+```{r echo=T, eval=F}
+data(cancer)
+colon <- cancer$colon
+```
+
+# Autoevaluación \# 11
+
+1)  Con el vector de nombre `colon` que creaste en la anterior autoevaluación, aplica una prueba de Wilcoxon para una muestra bajo la hipótesis de que la mediana de los días de superviviencia de un paciente con cáncer de colon es de 370 días.
+
+2)  A partir de la tabla de datos de felicidad de la Prof. Navarro, lleva a cabo una prueba de Wilcoxon para dos muestras emparejadas de la felicidad de los estudiantes antes y después de recibir una clase de Estadística. Compara el resultado con la prueba de una muestra que usé de ejemplo. ¿Por qué no hay diferencia?.
+
+# Autoevaluación \# 12
+
+-   Encuentra si existen diferencias en la longitud nariz-cloaca al emerger (`SVL.initial`) con respecto a los predadores `Pred` en los datos de Touchon. ¿Qué método es factible usar?, ¿ANOVA de una vía o Kruskal-Wallis?
+
+# Autoevaluación \# 13
+
+-   Lleva a cabo un ANOVA de dos vías para las variables `Resorb.days` y los factores `Pred` y `Res`. La pregunta a investigar es saber si existe una interacción entre la presencia de predadores a distintos niveles de recursos que afecte el tiempo de reabsorción de la cola en los renacuajos de ranas arbóreas de ojos rojos.
+
+-   A pesar de que el modelo para `Resorb.day` que acabas de hacer cumple con los supuestos del ANOVA, solo por aprendizaje, conduce una prueba de Kruskal-Wallis usando los mismos factores.

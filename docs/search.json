@@ -117,5 +117,89 @@
     "title": "Trabajo final",
     "section": "Consideraciones finales",
     "text": "Consideraciones finales\nPara quienes opten por presentar el análisis de datos (propios o de otros recursos), estoy abierto a ofrecer horas de consultoría (sin costo alguno) para discutir sus resultados de manera personalizada."
+  },
+  {
+    "objectID": "autoevaluaciones.html",
+    "href": "autoevaluaciones.html",
+    "title": "Autoevaluaciones Template",
+    "section": "",
+    "text": "Lee cuidadosamente las siguientes instrucciones, para la entrega final del reporte, borra las mismas (desde la linea 21 hasta la linea 47) y entrega unicamente desde el apartado de Autoevaluacion # 1. En el caso de no hacerlo, deducire 10% de la nota final del trabajo.\nUtiliza este template para responder las preguntas de las autoevaluaciones que hemos ido contestando a lo largo del curso.\nPara ello, investiga de que manera puedes resaltar las respuestas (tip: usa el editor visual de Quarto, en la barra de herramientas, bajo la opcion formato busca como puedes hacer notar tu respuesta).\nEn el caso de que la respuesta no conste en el listado de opciones, indica cual es la respuesta correcta.\nEn el encabezado de este documento cambia acordemente el author por tu nombre.\nEl formato de entrega del reporte es de tu eleccion. Recomiendo entre html o docx, ya que dar formato en pdf es especialmente dificil.\n\n\n\nPara la entrega del reporte, comprime en un archivo zip o rar toda la carpeta de tu proyecto y enviala a mi correo. Necesito ver como modificaste el codigo y si el trabajo renderizado corresponde al mismo.\n\n\n\nLa nota maxima de este trabajo es de 100%. La nota minima para aprobar el curso es de 70%.\nLa valoracion de cada Autoevaluacion (A) es la siguiente:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA1\nA2\nA3\nA4\nA5\nA6\nA7\nA8\nA9\nA10\nA11\nA12\nA13\n\n\n%\n5\n5\n5\n5\n5\n5\n5\n10\n5\n10\n10\n5\n25\n\n\n\n\n\n\nLa fecha maxima de entrega de este trabajo es hasta la media noche del 25 de Noviembre del 2023."
+  },
+  {
+    "objectID": "autoevaluaciones.html#instrucciones",
+    "href": "autoevaluaciones.html#instrucciones",
+    "title": "Autoevaluaciones Template",
+    "section": "",
+    "text": "Lee cuidadosamente las siguientes instrucciones, para la entrega final del reporte, borra las mismas (desde la linea 21 hasta la linea 47) y entrega unicamente desde el apartado de Autoevaluacion # 1. En el caso de no hacerlo, deducire 10% de la nota final del trabajo.\nUtiliza este template para responder las preguntas de las autoevaluaciones que hemos ido contestando a lo largo del curso.\nPara ello, investiga de que manera puedes resaltar las respuestas (tip: usa el editor visual de Quarto, en la barra de herramientas, bajo la opcion formato busca como puedes hacer notar tu respuesta).\nEn el caso de que la respuesta no conste en el listado de opciones, indica cual es la respuesta correcta.\nEn el encabezado de este documento cambia acordemente el author por tu nombre.\nEl formato de entrega del reporte es de tu eleccion. Recomiendo entre html o docx, ya que dar formato en pdf es especialmente dificil."
+  },
+  {
+    "objectID": "autoevaluaciones.html#importante",
+    "href": "autoevaluaciones.html#importante",
+    "title": "Autoevaluaciones Template",
+    "section": "",
+    "text": "Para la entrega del reporte, comprime en un archivo zip o rar toda la carpeta de tu proyecto y enviala a mi correo. Necesito ver como modificaste el codigo y si el trabajo renderizado corresponde al mismo."
+  },
+  {
+    "objectID": "autoevaluaciones.html#calificacion",
+    "href": "autoevaluaciones.html#calificacion",
+    "title": "Autoevaluaciones Template",
+    "section": "",
+    "text": "La nota maxima de este trabajo es de 100%. La nota minima para aprobar el curso es de 70%.\nLa valoracion de cada Autoevaluacion (A) es la siguiente:\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA1\nA2\nA3\nA4\nA5\nA6\nA7\nA8\nA9\nA10\nA11\nA12\nA13\n\n\n%\n5\n5\n5\n5\n5\n5\n5\n10\n5\n10\n10\n5\n25"
+  },
+  {
+    "objectID": "autoevaluaciones.html#fecha-de-entrega",
+    "href": "autoevaluaciones.html#fecha-de-entrega",
+    "title": "Autoevaluaciones Template",
+    "section": "",
+    "text": "La fecha maxima de entrega de este trabajo es hasta la media noche del 25 de Noviembre del 2023."
+  },
+  {
+    "objectID": "ejemplo_reporte.html",
+    "href": "ejemplo_reporte.html",
+    "title": "Análisis de Varianza de los pingüinos de Palmer",
+    "section": "",
+    "text": "Los datos en el presente reporte corresponden a la tabla penguins del paquete palmerpenguins. Esta tabla contiene 8 variables que corresponden a 344 pingüinos de 3 especies (Adelie, Chinstrap y Gentoo)."
+  },
+  {
+    "objectID": "ejemplo_reporte.html#datos",
+    "href": "ejemplo_reporte.html#datos",
+    "title": "Análisis de Varianza de los pingüinos de Palmer",
+    "section": "",
+    "text": "Los datos en el presente reporte corresponden a la tabla penguins del paquete palmerpenguins. Esta tabla contiene 8 variables que corresponden a 344 pingüinos de 3 especies (Adelie, Chinstrap y Gentoo)."
+  },
+  {
+    "objectID": "ejemplo_reporte.html#hipótesis",
+    "href": "ejemplo_reporte.html#hipótesis",
+    "title": "Análisis de Varianza de los pingüinos de Palmer",
+    "section": "Hipótesis",
+    "text": "Hipótesis\nEl largo de la aleta de los pingüinos de Palmer difiere significativamente dependiendo de su especie."
+  },
+  {
+    "objectID": "ejemplo_reporte.html#estadísticos-descriptivos",
+    "href": "ejemplo_reporte.html#estadísticos-descriptivos",
+    "title": "Análisis de Varianza de los pingüinos de Palmer",
+    "section": "Estadísticos descriptivos",
+    "text": "Estadísticos descriptivos\nLas poblaciones de pingüinos se encuentran caracterizadas por los siguientes estadísticos:\n\ndesc_tabla &lt;- describe(penguins) %&gt;%\n  flextable(.) %&gt;%\n  colformat_double(., digits = 2)\n\nautofit(desc_tabla)\n\n\nVariableNMissingMSDMinQ25MdnQ75MaxRangeCI_95_LLCI_95_ULSkewnessKurtosisbill_length_mm342243.925.4632.1039.2344.4548.5059.6027.5043.3444.500.052.12bill_depth_mm342217.151.9713.1015.6017.3018.7021.508.4016.9417.36-0.142.09flipper_length_mm3422200.9214.06172.00190.00197.00213.00231.0059.00199.42202.410.342.01body_mass_g34224,201.75801.952,700.003,550.004,050.004,750.006,300.003,600.004,116.464,287.050.472.27year34402,008.030.822,007.002,007.002,008.002,009.002,009.002.002,007.942,008.12-0.051.50\n\n\nPor ejemplo, podemos ver como el largo de la aleta (flipper length) varia de 172 a 231 mm, con una media de 200.9 mm."
+  },
+  {
+    "objectID": "ejemplo_reporte.html#pruebas-de-los-supuestos",
+    "href": "ejemplo_reporte.html#pruebas-de-los-supuestos",
+    "title": "Análisis de Varianza de los pingüinos de Palmer",
+    "section": "Pruebas de los supuestos",
+    "text": "Pruebas de los supuestos\nAntes de comenzar con pruebas formales de normalidad y homocedasticidad, podemos dar un vistazo a las distribuciones de las aletas en función de su especie. De acuerdo a la siguiente figura, podemos suponer que los datos están cercanos a cumplir los supuestos.\n\nggplot(penguins, aes(x = flipper_length_mm, fill = species))+\n  geom_density(alpha = 0.5)+\n  theme(legend.position = \"none\")+\n  labs(x = \"largo de aleta (mm)\", title = \"Largo de aleta (mm) por especie de pingüino\")\n\n\n\n\n\n\n\n\nDe los gráficos diagnósticos, podemos ver que no existen mayores razones de preocupación de que los supuestos no se cumplan.\n\nlm1 &lt;- lm(flipper_length_mm ~ species, data = penguins)\npar(mfrow = c(2, 2))\nplot(lm1)\n\n\n\n\n\n\n\npar(mfrow = c(1, 1))\n\nEsto se confirma mediante las pruebas formales de Shapiro-Wilk y Levene para la normalidad y la homocedasticidad, respectivamente.\n\nresiduos &lt;- resid(lm1)\nshapiro.test(residuos)\n\n\n    Shapiro-Wilk normality test\n\ndata:  residuos\nW = 0.99452, p-value = 0.2609\n\nleveneTest(lm1)\n\nLevene's Test for Homogeneity of Variance (center = median)\n       Df F value Pr(&gt;F)\ngroup   2  0.3306 0.7188\n      339"
+  },
+  {
+    "objectID": "ejemplo_reporte.html#anova",
+    "href": "ejemplo_reporte.html#anova",
+    "title": "Análisis de Varianza de los pingüinos de Palmer",
+    "section": "ANOVA",
+    "text": "ANOVA\nUna vez que hemos visto que los supuestos se cumplen, podemos llevar a cabo el ANOVA. Sin embargo, antes de ello, es buena práctica explorar un poco más las distribuciones de nuestra variable dependiente.\n\nggplot(penguins, aes(x = species, y = flipper_length_mm, fill = species))+\n  geom_boxplot(alpha = 0.5)+\n  theme(legend.position = \"none\")+\n  labs(y = \"largo de aleta (mm)\", x = NULL, title = \"Largo de aleta (mm) por especie de pingüino\")\n\n\n\n\n\n\n\n\nDel gráfico podemos intuir dos ideas:\n\nEs muy probable que el largo de la aleta entre las especies Adelie y Chinstrap no sean estadísticamente distintas, y\nDos observaciones en la especie Adelie, de acuerdo al criterio del rango intercuartílico, podrían ser outliers. Sin embargo, de las pruebas anteriores, podemos estar seguros que estas dos observaciones no apalancan la distribución fuera de la normalidad.\n\nAdicionalmente, podemos dar un vistazo a las medias y desviaciones estándar del largo de aleta por especie. Para ello, podemos hacer uso de la librería tidycomm. Pero para este caso, usaremos dplyr, con su función summarise.\n\npenguins %&gt;%\n  group_by(species) %&gt;%\n  summarise(media = mean(flipper_length_mm, na.rm = T),\n            ds = sd(flipper_length_mm, na.rm = T))\n\n# A tibble: 3 × 3\n  species   media    ds\n  &lt;fct&gt;     &lt;dbl&gt; &lt;dbl&gt;\n1 Adelie     190.  6.54\n2 Chinstrap  196.  7.13\n3 Gentoo     217.  6.48\n\n\nAhora, de acuerdo a la tabla del ANOVA, confirmamos lo que ya nos pudo haber dado la idea de los análisis anteriores. Así, podemos concluir, que con un valor p de 0.000, rechazamos la hipótesis nula de la igualdad de las medias del largo de aleta entre las especies, y al menos una es distinta.\n\ntabla_anova &lt;- as.data.frame(Anova(lm1))\ntabla_anova &lt;- cbind(parametro = row.names(tabla_anova), tabla_anova)\ntabla_anova &lt;- add_significance(tabla_anova, \n                 p.col = \"Pr(&gt;F)\", \n                 output.col = \" \",\n                 cutpoints = c(0, 0.001, 0.01, 0.05, 0.1, 1),\n                 symbols = c(\"***\", \"**\", \"*\", \".\", \"ns\"))\ntabla_anova &lt;- colformat_double(flextable(tabla_anova), digits = 3, j = c(2, 4, 5))\ntabla_anova &lt;- add_footer_lines(tabla_anova, \"Códigos Signif. 0 '***', 0.001 '**', 0.1 '*', 0.05 '.', 0.1 'ns'\")\nautofit(tabla_anova)\n\n\nparametroSum SqDfF valuePr(&gt;F) species52,473.2842594.8020.000***Residuals14,953.257339Códigos Signif. 0 '***', 0.001 '**', 0.1 '*', 0.05 '.', 0.1 'ns'"
+  },
+  {
+    "objectID": "ejemplo_reporte.html#pruebas-post-hoc",
+    "href": "ejemplo_reporte.html#pruebas-post-hoc",
+    "title": "Análisis de Varianza de los pingüinos de Palmer",
+    "section": "Pruebas post-hoc",
+    "text": "Pruebas post-hoc\nLlevamos a cabo la prueba HSD de Tukey, y observamos que todas las pruebas de pares son significativamente distintas. Es decir, contrario a lo que nos dio a pensar el boxplot, existe de hecho diferencias entre el largo de las aletas de las especies Adelie y Chinstrap.\n\nmedias_marginales &lt;- emmeans(lm1, specs = \"species\", type = \"response\")\n\ntukey_comp &lt;- contrast(medias_marginales, specs = \"species\", method = \"tukey\")\ntukey_comp\n\n contrast           estimate    SE  df t.ratio p.value\n Adelie - Chinstrap    -5.87 0.970 339  -6.052  &lt;.0001\n Adelie - Gentoo      -27.23 0.807 339 -33.760  &lt;.0001\n Chinstrap - Gentoo   -21.36 1.004 339 -21.286  &lt;.0001\n\nP value adjustment: tukey method for comparing a family of 3 estimates \n\n\nAhora, podemos visualizar estos resultados en dos formas, con la tabla de grupos de Tukey, o graficando dichos grupos.\n\ngrupos_tukey &lt;- cld(medias_marginales)\ngrupos_tukey\n\n species   emmean    SE  df lower.CL upper.CL .group\n Adelie       190 0.540 339      189      191  1    \n Chinstrap    196 0.805 339      194      197   2   \n Gentoo       217 0.599 339      216      218    3  \n\nConfidence level used: 0.95 \nP value adjustment: tukey method for comparing a family of 3 estimates \nsignificance level used: alpha = 0.05 \nNOTE: If two or more means share the same grouping symbol,\n      then we cannot show them to be different.\n      But we also did not show them to be the same. \n\n\n\ngruposvals &lt;- as.data.frame(grupos_tukey)\ngruposvals$Pred &lt;- factor(gruposvals$species, levels = c(\"Adelie\", \"Chinstrap\", \"Gentoo\"))\nggplot(gruposvals,\n       aes(x = species, \n           y = emmean, \n           fill = species)) +\n  geom_bar(stat = \"identity\", \n           show.legend = F, \n           color = \"black\")+\n  geom_errorbar(aes(ymin = lower.CL, \n                    ymax = upper.CL), \n                width=0.2)+\n  geom_text(aes(label=str_trim(.group), \n                y = upper.CL, vjust=-0.5))+\n  labs(caption = \"Intervalos de confianza al 95%\\nde la predicción representados con barras de error\",\n       x = NULL, y = \"media predicha de largo de aleta (mm)\")\n\n\n\n\n\n\n\n\nO también podemos hacer uso de la librería ggstatsplot. Esta librería no realiza HSD Tukey per se, sino Games-Howell. Games-Howell no asume varianzas iguales, y por tanto realiza corrección de Welch en todos los casos. Cuando los grupos son homocedásticos, sus resultados son los mismos que HSD Tukey.\n\nset.seed(1985) # esta librería realiza sampling aleatorio para calcular los intervalos de confianza de las differencias de las medias. Por esta razón, es aconsejable setear una semilla aleatoria para que nuestros resultados sean reproducibles.\nggbetweenstats(\n  data = penguins,\n  x = species,\n  y = flipper_length_mm,\n  pairwise.comparisons = T,\n  pairwise.display = \"all\",\n  p.adjust.method = \"none\"\n)"
   }
 ]
